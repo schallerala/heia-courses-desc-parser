@@ -66,7 +66,7 @@
         "semester": "Automne",
         "language": "Allemand",
         "evaluations": [
-            "Contrôle continu: travaux écrits, TP/évaluation de rapports, Ev. tests courts non annoncés"
+            "Contrôle continu: travaux écrits, TP/évaluation de rapports, év. tests courts non annoncés"
         ],
         "teachers": [
             "Jacques Supcik"
@@ -93,7 +93,7 @@
                 "list": [
                     "Notion d'algorithme et analyse de complexité.",
                     "Notion de type abstrait, études de cas (pile, file, liste chaînée, ensemble, table de hachage, bitset, file de priorité, introduction aux arbres et graphes).",
-                    "Techniques de programmation (récursivité, chaînage, programmation dynamique, traitement d'erreurs,  généricité, algorithmes probabilistes, exemple de backtracking).",
+                    "Techniques de programmation (récursivité, chaînage, programmation dynamique, traitement d'erreurs, généricité, algorithmes probabilistes, exemple de backtracking).",
                     "Quelques algorithmes classiques (tris, recherche binaire, nombres aléatoires, hachage, cryptographie RSA...).",
                     "Démarche de résolution de problème, spécification de programme par PRE/POST-conditions, tests de programme, lutte systématique contre les bugs, problèmes numériques en programmation, mesure du temps d'exécution"
                 ]
@@ -139,7 +139,7 @@
                 "intro": null,
                 "list": [
                     "Mise en pratique des éléments vus au cours de programmation : classes, classes abstraites, interfaces, classes internes, enum, généricité, annotations, expressions lambda, références de méthodes, etc.",
-                    "Aspects techniques liés à l'utilisation de JavaFX (Stage, graphes de scène, conteneurs, composants UI,  propriétés, binding, gestion des événements, ...). Principes de la programmation événementielle.",
+                    "Aspects techniques liés à l'utilisation de JavaFX (Stage, graphes de scène, conteneurs, composants UI, propriétés, binding, gestion des événements, ...). Principes de la programmation événementielle.",
                     "Utilisation de l'outil SceneBuilder pour générer des interfaces graphiques en mode déclaratif (format XML / FXML).",
                     "Découpage d'une application selon l'architecture Model-View-Controller (MVC).",
                     "Menus déroulants et contextuels. Création de raccourcis clavier.",
@@ -156,7 +156,7 @@
         "semester": "Printemps",
         "language": "Français",
         "evaluations": [
-            "Contrôle continu: travaux écrits, TP/évaluation de rapports, Ev. tests courts non annoncés"
+            "Contrôle continu: travaux écrits, TP/évaluation de rapports, év. tests courts non annoncés"
         ],
         "teachers": [
             "Sandy Ingram"
@@ -187,7 +187,7 @@
         "semester": "Automne",
         "language": "Allemand",
         "evaluations": [
-            "Contrôle continu: travaux écrits, Présentations"
+            "Contrôle continu: travaux écrits, présentations"
         ],
         "teachers": [
             "Mario Luongo"
@@ -226,7 +226,7 @@
         "semester": "Automne",
         "language": "Anglais",
         "evaluations": [
-            "Contrôle continu: travaux écrits, Présentations, Le choix de la langue à suivre et le niveau du cours (ou l'éventuelle dispense) sont clarifiés la première semaine de cours selon les indications des enseignant-e-s concerné-e-s."
+            "Contrôle continu: travaux écrits, présentations, le choix de la langue à suivre et le niveau du cours (ou l'éventuelle dispense) sont clarifiés la première semaine de cours selon les indications des enseignant-e-s concerné-e-s"
         ],
         "teachers": [
             "Santiago Cruz"
@@ -270,7 +270,7 @@
         "semester": "Automne",
         "language": "Allemand",
         "evaluations": [
-            "Contrôle continu: travaux écrits, Présentations"
+            "Contrôle continu: travaux écrits, présentations"
         ],
         "teachers": [
             "Bruno Müller"
@@ -343,7 +343,7 @@
         "semester": "Automne",
         "language": "Français",
         "evaluations": [
-            "Contrôle continu: TP/évaluation de rapports, Qualité des résultats du projet, exposés, participation active au sein du groupe"
+            "Contrôle continu: TP/évaluation de rapports, qualité des résultats du projet, exposés, participation active au sein du groupe"
         ],
         "teachers": [
             "François Buntschu",
@@ -376,7 +376,7 @@
         "semester": "Printemps",
         "language": "Allemand",
         "evaluations": [
-            "Contrôle continu: travaux écrits, Présentations,"
+            "Contrôle continu: travaux écrits, présentations"
         ],
         "teachers": [
             "Mario Luongo"
@@ -408,7 +408,7 @@
         "semester": "Printemps",
         "language": "Anglais",
         "evaluations": [
-            "Contrôle continu: travaux écrits, Présentations, le choix de la langue à suivre et le niveau du cours (ou l'éventuelle dispense) sont clarifiés la première semaine de cours selon les indications des enseignant-e-s concerné-e-s."
+            "Contrôle continu: travaux écrits, présentations, le choix de la langue à suivre et le niveau du cours (ou l'éventuelle dispense) sont clarifiés la première semaine de cours selon les indications des enseignant-e-s concerné-e-s"
         ],
         "teachers": [
             "Santiago Cruz"
@@ -449,7 +449,7 @@
         "semester": "Printemps",
         "language": "Allemand",
         "evaluations": [
-            "Contrôle continu: travaux écrits, Présentations"
+            "Contrôle continu: travaux écrits, présentations"
         ],
         "teachers": [
             "Bruno Müller"
@@ -839,7 +839,7 @@
                 "list": [
                     "Protocoles et mécanismes des couches liaison de données, réseau et transport",
                     "Technologies de réseaux locaux: pile de protocoles Ethernet/TCP/IP",
-                    "Adressage : IPv4, classes, adressage privé, introduction à  IPv6",
+                    "Adressage : IPv4, classes, adressage privé, introduction à IPv6",
                     "Eléments de réseaux: concentrateurs (hub), ponts (switch), routeurs, serveurs d'adresses",
                     "Protocoles des applications: messagerie électronique (e-mail), transfert de fichiers, terminaux virtuels, http"
                 ]
@@ -975,7 +975,7 @@
         "semester": "Automne",
         "language": "Français",
         "evaluations": [
-            "Contrôle continu: TP/évaluation de rapports, Epreuves Orales ou écrites"
+            "Contrôle continu: TP/évaluation de rapports, épreuves orales ou écrites"
         ],
         "teachers": [
             "Pierre Kuonen",
@@ -1114,7 +1114,7 @@
             "list": [
                 "quelques méthodes de la théorie des nombres, ainsi que plusieurs applications (par exemple, en cryptographie).",
                 "quelques méthodes standard des mathématiques numériques",
-                "utiliser les automates finis, les expressions régulières, et les diagrammes syntaxiques  pour décrire un langage;",
+                "utiliser les automates finis, les expressions régulières, et les diagrammes syntaxiques pour décrire un langage;",
                 "utiliser l'algorithme de descente récursive pour programmer un analyseur de langage;",
                 "manipuler les assertions pour vérifier des propriétés dans un programme;",
                 "manipuler des formules de logique temporelle (LTL)",
@@ -1173,7 +1173,7 @@
                 "Expliquer les principes de base régissant un phénomène physique observé.",
                 "Mesurer les grandeurs physiques décrivant un phénomène physique observé.",
                 "Elaborer un modèle simple d'un système physique observé et en calculer les paramètres.",
-                "Est familiarisé avec les principes de base des phénomènes de vitesse, accélération, forces, énergie;  connais les notions d'ondes électromagnétiques",
+                "Est familiarisé avec les principes de base des phénomènes de vitesse, accélération, forces, énergie; connais les notions d'ondes électromagnétiques",
                 "Est capable d'expliquer et d'implémenter en simulations les lois physiques étudiés."
             ]
         },
@@ -1194,7 +1194,7 @@
             {
                 "intro": "Forces:",
                 "list": [
-                    "3 lois de Newton:  loi d'inertie;  force, masse, quantité de mouvement; action-réaction",
+                    "3 lois de Newton: loi d'inertie; force, masse, quantité de mouvement; action-réaction",
                     "Dynamique des forces",
                     "Force gravitationnelle"
                 ]
@@ -1213,20 +1213,20 @@
                     "Notion d'onde électromagnétique",
                     "Fréquence",
                     "Phase",
-                    "lumière, son;  vitesse de propagation"
+                    "lumière, son; vitesse de propagation"
                 ]
             },
             {
                 "intro": "Electricité (rappels de l'apprentissage)",
                 "list": [
-                    "Loi d'Ohm;  puissance;  circuits de base;  Résistances en parallèle et en série"
+                    "Loi d'Ohm; puissance; circuits de base; Résistances en parallèle et en série"
                 ]
             },
             {
                 "intro": "Eventuellement",
                 "list": [
                     "Statique des solides",
-                    "Fluides:  Archimède, Pascal"
+                    "Fluides: Archimède, Pascal"
                 ]
             },
             {
@@ -1239,7 +1239,7 @@
         "semester": "Printemps",
         "language": "Français",
         "evaluations": [
-            "Contrôle continu: travaux écrits, TP/évaluation de rapports, Présentations"
+            "Contrôle continu: travaux écrits, TP/évaluation de rapports, présentations"
         ],
         "teachers": [
             "Ales Janka"
@@ -1264,7 +1264,7 @@
         "semester": "Automne",
         "language": "Allemand",
         "evaluations": [
-            "Contrôle continu: travaux écrits, Présentations"
+            "Contrôle continu: travaux écrits, présentations"
         ],
         "teachers": [
             "Alfred Münger"
@@ -1334,7 +1334,7 @@
         "semester": "Printemps",
         "language": "Allemand",
         "evaluations": [
-            "Contrôle continu: travaux écrits, TP/évaluation de rapports, Présentations"
+            "Contrôle continu: travaux écrits, TP/évaluation de rapports, présentations"
         ],
         "teachers": [
             "Andreas Fischer"
@@ -1373,7 +1373,7 @@
         "semester": "Printemps",
         "language": "Français",
         "evaluations": [
-            "Contrôle continu: TP/évaluation de rapports, Présentations"
+            "Contrôle continu: TP/évaluation de rapports, présentations"
         ],
         "teachers": [
             "Frédéric Bapst",
@@ -1403,7 +1403,7 @@
                 "list": [
                     "Introduction: première approche, définitions, caractéristiques et modèle.",
                     "Exclusion mutuelle: problématique, réalisation (attente active, verrous).",
-                    "Synchronisation: problématique, réalisation (sémaphores,  moniteurs)",
+                    "Synchronisation: problématique, réalisation (sémaphores, moniteurs)",
                     "Langages/environnements de développement qui supportent de multiples processus: JR, Java, pthreads, etc"
                 ]
             }
@@ -1482,7 +1482,7 @@
                 "list": [
                     "Introduction: première approche, définitions, caractéristiques et modèle.",
                     "Communication: problématique, réalisation (messages asynchrones et synchrones, rendez-vous, RPC et RMI)",
-                    "Langages/environnements de développement  qui supportent la programmation distribuée: JR, Java, etc",
+                    "Langages/environnements de développement qui supportent la programmation distribuée: JR, Java, etc",
                     "Programmation distribuée.",
                     "Programmation parallèle."
                 ]
@@ -1583,7 +1583,7 @@
                     "Algorithmes d'ordonnancement - mécanismes de base et exemples",
                     "Disque, organisation et gestion: optimisation des performances, systèmes de gestion des fichiers, exemples Unix/NT, sécurité, protection et sauvegarde.",
                     "Entrées-sorties: mécanismes de base, exemples Unix/NT.",
-                    "Outils informatiques/programmation shell: sh et variantes principales;  commandes usuels (coreutils) + quelques outils pour experts (grep, sed, awk, python)."
+                    "Outils informatiques/programmation shell: sh et variantes principales; commandes usuels (coreutils) + quelques outils pour experts (grep, sed, awk, python)."
                 ]
             }
         ],
@@ -1673,7 +1673,7 @@
                     "Architecture interne des microprocesseurs",
                     "Programmation interruptive",
                     "Interconnection de périphériques usuels",
-                    "Eléments du noyau d'un système d'exploitation  (thread, sémaphore, etc.)",
+                    "Eléments du noyau d'un système d'exploitation (thread, sémaphore, etc.)",
                     "Direct Access Memory (DMA)",
                     "Mémoires caches",
                     "Memory Management Unit (MMU)"
@@ -1852,7 +1852,7 @@
         "semester": "Printemps",
         "language": "Français",
         "evaluations": [
-            "Contrôle continu: travaux écrits, TP/évaluation de rapports,"
+            "Contrôle continu: travaux écrits, TP/évaluation de rapports"
         ],
         "teachers": [
             "Rudolf Scheurer"
@@ -1874,7 +1874,7 @@
         },
         "contents": [
             {
-                "intro": "Depuis une dizaine d'année le mouvement des NoSQL et bigdata a pris de plus en plus d'ampleur. Présenté au début comme l'alternative  magique aux immuables SGBDRs, la tendance actuelle modère ces paroles pour insister sur la complémentaritéde toutes ces technologies entre elles. L'avenir, au niveau du stokage des données, se présente donc sous forme de ''persistance polyglotte''.Pour les concepteurs et développeurs des nouveaux systèmes d'information, il s'agit donc d'être capable de monter une architecture mixant toutes ces technologies à bon escient. Pour ce faire, ce chapitre choisi propose de comprendre ce que sont ces technologies dites NoSQL, d'en voir lesavantages et désavantages afin d'en permettre une utilisation judicieuse. Y seront abordés les notions suivantes:",
+                "intro": "Depuis une dizaine d'année le mouvement des NoSQL et bigdata a pris de plus en plus d'ampleur. Présenté au début comme l'alternative magique aux immuables SGBDRs, la tendance actuelle modère ces paroles pour insister sur la complémentaritéde toutes ces technologies entre elles. L'avenir, au niveau du stokage des données, se présente donc sous forme de ''persistance polyglotte''.Pour les concepteurs et développeurs des nouveaux systèmes d'information, il s'agit donc d'être capable de monter une architecture mixant toutes ces technologies à bon escient. Pour ce faire, ce chapitre choisi propose de comprendre ce que sont ces technologies dites NoSQL, d'en voir lesavantages et désavantages afin d'en permettre une utilisation judicieuse. Y seront abordés les notions suivantes:",
                 "list": [
                     "Scale-out vs scale-in et propriétés BASE vs ACID",
                     "Stockage distribué et calcul distribué (HDFS, Map Reduce, TEZ, Spark...)",
@@ -1894,7 +1894,7 @@
         "semester": "Automne",
         "language": "Français",
         "evaluations": [
-            "Contrôle continu: travaux écrits, TP/évaluation de rapports, Présentations"
+            "Contrôle continu: travaux écrits, TP/évaluation de rapports, présentations"
         ],
         "teachers": [
             "Houda Chabbi",
@@ -1942,7 +1942,7 @@
         "semester": "Printemps",
         "language": "Français",
         "evaluations": [
-            "Contrôle continu: travaux écrits, TP/évaluation de rapports, Présentations"
+            "Contrôle continu: travaux écrits, TP/évaluation de rapports, présentations"
         ],
         "teachers": [
             "Maurizio Rigamonti",
@@ -1981,7 +1981,7 @@
         "semester": "Printemps",
         "language": "Français",
         "evaluations": [
-            "Contrôle continu: travaux écrits, TP/évaluation de rapports, Présentations"
+            "Contrôle continu: travaux écrits, TP/évaluation de rapports, présentations"
         ],
         "teachers": [
             "Omar Abou Khaled",
@@ -2005,58 +2005,26 @@
         },
         "contents": [
             {
-                "intro": "---------------------------------",
-                "list": []
+                "intro": "Introduction",
+                "list": [
+                    "Le Machine Learning est une branche de l'Intelligence Artificielle qui étudie des algorithmes dits à ''apprentissage automatique''. Ces algorithmes sont capables, à partir d'exemples, de résoudre des problèmes complexes qu'il serait difficile de résoudre en utilisant des approches traditionnelles. Le Machine Learning est aujourd'hui utilisé dans plusieurs domaines: prédiction (évolution de la bourse, météo), classification (reconnaissance de geste, reconnaissance de la parole, reconnaissance d'image), vérification/détection (authentification biométrique), data-mining (clustering sur données complexes)."
+                ]
             },
             {
-                "intro": "-Introduction-",
-                "list": []
+                "intro": "Méthode",
+                "list": [
+                    "Le cours combine des séances théoriques et des séances pratiques. Une importance particulière est donnée aux séances pratiques qui se feront via des exercices dirigés en classe (entre autre par l'utilisation de l'outil KNIME et WEKA) et via des mini-projets réalisés en groupe de 2-3 personnes."
+                ]
             },
             {
-                "intro": "---------------------------------",
-                "list": []
-            },
-            {
-                "intro": "Le Machine Learning est une branche de l'Intelligence Artificielle qui étudie des algorithmes dits à ''apprentissage automatique''. Ces algorithmes sont capables, à partir d'exemples, de résoudre des problèmes complexes qu'il serait difficile de résoudre en utilisant des approches traditionnelles. Le Machine Learning est aujourd'hui utilisé dans plusieurs domaines: prédiction (évolution de la bourse, météo), classification (reconnaissance de geste, reconnaissance de la parole, reconnaissance d'image), vérification/détection (authentification biométrique), data-mining (clustering sur données complexes).",
-                "list": []
-            },
-            {
-                "intro": "---------------------------------",
-                "list": []
-            },
-            {
-                "intro": "-Méthode-",
-                "list": []
-            },
-            {
-                "intro": "---------------------------------",
-                "list": []
-            },
-            {
-                "intro": "Le cours combine des séances théoriques et des séances pratiques. Une importance particulière est donnée aux séances pratiques qui se feront via des exercices dirigés en classe (entre autre par l'utilisation de l'outil KNIME et WEKA) et via des mini-projets réalisés en groupe de 2-3 personnes.",
-                "list": []
-            },
-            {
-                "intro": "---------------------------------",
-                "list": []
-            },
-            {
-                "intro": "-Contenu-",
-                "list": []
-            },
-            {
-                "intro": "---------------------------------",
-                "list": []
-            },
-            {
-                "intro": "-- Partie I - Principes de bases (20%) --",
+                "intro": "Contenu -- Partie I - Principes de bases (20%) --",
                 "list": [
                     "Définition des approches Machine Learning : concepts d'apprentissage à partir des données, d'apprentissage supervisé vs non supervisé, d'extraction de caractéristiques, de présentation d'hypothèses.",
                     "Définition des domaines d'utilisation à travers des exemples concrets : prédiction, classification, vérification, clustering."
                 ]
             },
             {
-                "intro": "-- Partie II - Algorithmes de Machine Learning: théorie et application (60%) --",
+                "intro": "Contenu -- Partie II - Algorithmes de Machine Learning: théorie et application (60%) --",
                 "list": [
                     "Introduction au framework KNIME",
                     "Données brutes vers caractéristiques utiles: algorithmes de preprocessing et extraction de caractéristiques",
@@ -2069,7 +2037,7 @@
                 ]
             },
             {
-                "intro": "-- Partie III - Applications avancées (20%) --",
+                "intro": "Contenu -- Partie III - Applications avancées (20%) --",
                 "list": [
                     "Traitement de signaux temporels",
                     "State-based modeling",
@@ -2155,7 +2123,7 @@
         "semester": "Automne",
         "language": "Français",
         "evaluations": [
-            "Contrôle continu: TP/évaluation de rapports, Epreuves orales ou écrites"
+            "Contrôle continu: TP/évaluation de rapports, épreuves orales ou écrites"
         ],
         "teachers": [
             "Pierre Kuonen"
@@ -2164,7 +2132,7 @@
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B3M-ITA2-I&courseId=B3C-INHM-I",
         "module": "Informatique avancée 2",
-        "course": "Interface homme-machine  2",
+        "course": "Interface homme-machine 2",
         "periods": 24,
         "objectives": {
             "intro": "A la fin du cours, l'étudiant sait",
@@ -2289,7 +2257,7 @@
         "semester": "Automne",
         "language": "Allemand",
         "evaluations": [
-            "Contrôle continu: TP/évaluation de rapports, Présentations"
+            "Contrôle continu: TP/évaluation de rapports, présentations"
         ],
         "teachers": [
             "Daniel Gachet",
@@ -2331,7 +2299,7 @@
         "semester": "Printemps",
         "language": "Allemand",
         "evaluations": [
-            "Contrôle continu: TP/évaluation de rapports, Présentations"
+            "Contrôle continu: TP/évaluation de rapports, présentations"
         ],
         "teachers": [
             "Omar Abou Khaled",
@@ -2357,7 +2325,7 @@
                 "list": [
                     "Mécanismes de base de la communication réseau en Java: Sockets",
                     "Interfaçage vers des composants logiciels natifs: JNI (Java Native Interface)",
-                    "Couche d'abstraction pour l'invocation de méthodes à distance:  RMI (Remote Method Incovation)",
+                    "Couche d'abstraction pour l'invocation de méthodes à distance: RMI (Remote Method Incovation)",
                     "Gestion d'application à distance avec JMX (Java Management eXtension)"
                 ]
             }
@@ -2395,7 +2363,7 @@
                 "intro": null,
                 "list": [
                     "Système d'information (Définition, principes, modèles, installation et configuration, protocoles d'accès, comparaison, etc.).",
-                    "Protocoles et langages:  HTTP, MIMETYPE, URI, XHTML, CSS.",
+                    "Protocoles et langages: HTTP, MIMETYPE, URI, XHTML, CSS.",
                     "Techniques avancées de modélisation de XML schéma.",
                     "Architectures client/serveur: 2 tiers, 3tiers, n-tiers et architectures SOA (Services Oriented Architecture).",
                     "Frameworks, serveurs d'applications et plateformes de developpement.",
@@ -2416,7 +2384,7 @@
         "semester": "Automne",
         "language": "Français",
         "evaluations": [
-            "Contrôle continu: travaux écrits, TP/évaluation de rapports, Travaux oraux"
+            "Contrôle continu: travaux écrits, TP/évaluation de rapports, travaux oraux"
         ],
         "teachers": [
             "Omar Abou Khaled",
@@ -2461,7 +2429,7 @@
         "semester": "Printemps",
         "language": "Français",
         "evaluations": [
-            "Contrôle continu: travaux écrits, TP/évaluation de rapports, Présentations"
+            "Contrôle continu: travaux écrits, TP/évaluation de rapports, présentations"
         ],
         "teachers": [
             "Omar Abou Khaled",
@@ -2499,7 +2467,7 @@
         "semester": "",
         "language": "Allemand",
         "evaluations": [
-            "Contrôle continu: Note définie sur :\n- développement et réalisation\n- Documentation\n- Exposé"
+            "Contrôle continu: Note définie sur : développement et réalisation, documentation, exposé"
         ],
         "teachers": [
             "Sandy Ingram",
