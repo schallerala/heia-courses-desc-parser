@@ -5,6 +5,7 @@ import path from 'path';
 
 const crawler = new PagesCrawler();
 
+throw new Error("Don't execute anymore!");
 (async function () {
     await crawler.start();
     Descriptions.sort(DescriptionSorter);

@@ -2,13 +2,13 @@ import cheerio from 'cheerio';
 import { ParsedAnswer } from "./RequestPage";
 import { sortBy, compareNumber, compareString } from "./Sorter";
 
-interface Section {
+export interface Section {
     intro?: string;
     list: Array<string>
 }
 
-interface Objectives extends Section { }
-interface Content extends Section { }
+export interface Objectives extends Section { }
+export interface Content extends Section { }
 
 export interface Description {
     url?: string;

@@ -70,7 +70,72 @@
         ],
         "teachers": [
             "Jacques Supcik"
-        ]
+        ],
+        "id": 1,
+        "moduleEn": "Basic computing Science",
+        "courseEn": "Programming",
+        "contentsEn": [
+            {
+                "list": [
+                    "Concept of computer (architecture, main components) and program",
+                    "Development: steps, tools used, files involved, work environment",
+                    "Mastering the basic functions of a development environment (editing, compiling, debugging)",
+                    "Concepts of type and variable; distinction between primitive type and reference type",
+                    "Instructional and Program Concepts"
+                ],
+                "intro": "Introduction to Programming"
+            },
+            {
+                "list": [
+                    "Language basics, identifiers, reserved words, variables, primitive types, expressions and assignments",
+                    "Control structures: sequence, selection (if..else and switch instructions)",
+                    "Instructions itératives (boucles while, do..while et for)",
+                    "Methods and functions (specification, implementation, use); parameter passing",
+                    "One- and multi-dimensional tables",
+                    "Creating and manipulating strings (String)",
+                    "Exception generation, handling and propagation",
+                    "Simple inputs/outputs (I/O), flow concepts, reading and writing text files",
+                    "Classes and objects",
+                    "Packages and access control",
+                    "Static members (fields and methods)",
+                    "Concept of inheritance and creation of subclasses",
+                    "Abstract classes and interfaces",
+                    "Classes internes, anonymes",
+                    "Expressions lambdas",
+                    "General",
+                    "Stream (flow-based programming)"
+                ],
+                "intro": "Programming in Java"
+            }
+        ],
+        "semesterEn": "Autumn",
+        "languageEn": "German",
+        "evaluationsEn": [
+            "Continuous assessment: written work, TP/evaluation of reports, possibly unannounced short tests."
+        ],
+        "objectivesEn": {
+            "list": [
+                "Describe the steps in the development of a computer program, the tools and files involved",
+                "Using a development environment and a debugger to write, run and test a Java program",
+                "Explain the concept of type and distinguish between a primitive type and a reference type.",
+                "Declaring and initializing variables",
+                "Use artithmetic, logical and relational operators to form expressions",
+                "Write conditional instructions (connection and selection)",
+                "Using iterative instructions in simple algorithms",
+                "Declare, create and use tables",
+                "Declare and invoke methods",
+                "Generate, process and propagate exceptions where necessary",
+                "Writing a program that reads/writes text files",
+                "Writing a class, creating instances (objects) and using them",
+                "Explain and correctly use static fields and methods",
+                "Explain and exploit the notion of inheritance",
+                "Working with abstract classes and interfaces",
+                "Use genericity",
+                "Choose the way to define classes (internal, anonymous...)",
+                "Using lambda expressions, and processing Java 8 streams"
+            ],
+            "intro": "At the end of the course, the student knows"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-INFO-IT&courseId=B1C-ALGO-IT",
@@ -109,7 +174,37 @@
         ],
         "teachers": [
             "Andreas Fischer"
-        ]
+        ],
+        "id": 2,
+        "moduleEn": "Basic computing Science",
+        "courseEn": "Algorithmics and Data Structures",
+        "contentsEn": [
+            {
+                "list": [
+                    "Notion of algorithm and complexity analysis.",
+                    "Notion of abstract type, case studies (stack, queue, chained list, set, hash table, bitset, priority queue, introduction to trees and graphs).",
+                    "Programming techniques (recursivity, chaining, dynamic programming, error processing, genericity, probabilistic algorithms, example of backtracking).",
+                    "Some classical algorithms (sorting, binary search, random numbers, hash, RSA cryptography...).",
+                    "Problem-solving approach, program specification by PRE/POST-conditions, program testing, systematic fight against bugs, numerical problems in programming, measurement of execution time"
+                ]
+            }
+        ],
+        "semesterEn": "Spring",
+        "languageEn": "German",
+        "evaluationsEn": [
+            "Continuous assessment: written work, TP/evaluation of reports",
+            "Exam: written (120 min.)"
+        ],
+        "objectivesEn": {
+            "list": [
+                "Analyze a computer problem, and design an algorithm to solve it.",
+                "Write and use complex data structures and non-trivial algorithms.",
+                "Analyze the theoretical complexity of a program and verify it experimentally.",
+                "Think in an abstract way, distinguishing between specification and implementation, and using adequate formalisms (sketches, pseudo-code, ...).",
+                "Use a software development environment, and an object-oriented imperative programming language."
+            ],
+            "intro": "This module provides a solid foundation for programming. At the end of the module, the student knows:"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-INFO-IT&courseId=B1C-INHM-IT",
@@ -160,7 +255,49 @@
         ],
         "teachers": [
             "Sandy Ingram"
-        ]
+        ],
+        "id": 3,
+        "moduleEn": "Basic computing Science",
+        "courseEn": "Human-Computer Interaction",
+        "contentsEn": [
+            {
+                "list": [
+                    "Putting into practice the elements seen during programming: classes, abstract classes, interfaces, internal classes, enum, genericity, annotations, lambda expressions, method references, etc.",
+                    "Technical aspects related to the use of JavaFX (Stage, scene graphs, containers, UI components, properties, binding, event management, ...). Principles of event-driven programming.",
+                    "Using the SceneBuilder tool to generate graphical interfaces in declarative mode (XML / FXML format).",
+                    "Splitting of an application according to the Model-View-Controller (MVC) architecture.",
+                    "Drop-down and context-sensitive menus. Creation of keyboard shortcuts.",
+                    "Creation and use of general and specialized dialog boxes.",
+                    "Deployment of an application with external resources (images, sound, ...).",
+                    "General principles related to human-machine interaction, usability, ergonomic criteria and human factors.",
+                    "Ergonomic assessments: techniques and implementation.",
+                    "Elements related to visualization (icons, highlighting techniques, layout and alignment, screen template, gaze path, layout, use of colors, definitions and typographical rules, ...)."
+                ]
+            }
+        ],
+        "semesterEn": "Spring",
+        "languageEn": "French",
+        "evaluationsEn": [
+            "Continuous assessment: written work, TP/evaluation of reports, possibly unannounced short tests."
+        ],
+        "objectivesEn": {
+            "list": [
+                "Exploit the technical notions seen during programming and necessary for the creation and management of user interfaces in Java (interfaces, internal classes, enumerations, genericity, annotations, lambda expressions, etc.).",
+                "Create a classic user interface with JavaFX in procedural and declarative mode (FXML).",
+                "Create and structure a scene graph by choosing the right containers and components for the desired design.",
+                "Manage the layout of the interface elements by exploiting and judiciously parameterizing the containers (layout-panes) and their layout constraints.",
+                "Manage events associated with the man-machine dialogue.",
+                "Structure the classes of an application by respecting the principles of the MVC (Model-View-Controller) architecture.",
+                "Define the concept of usability and describe the main methods of ergonomic assessments.",
+                "Describe and rank the main ergonomic criteria that influence the quality of interaction.",
+                "To take into account certain characteristics of humans facing an interactive system (perceptual, cognitive, motor and behavioural aspects).",
+                "Design a user interface that respects the rules related to visual aspects (icons, highlighting, layout, colors, typography, etc.).",
+                "Write a user interface that adapts to the user's context (screen resolution, type and configuration of the target machine).",
+                "Consult and use the documentation (API) relating to the libraries used to create and manage the user interface.",
+                "Deploy an application in the form of an executable JAR file including all the necessary resources."
+            ],
+            "intro": "At the end of the course, the student is able to :"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-LACG-IT&courseId=B1C-TED1-CEGIMT",
@@ -191,7 +328,29 @@
         ],
         "teachers": [
             "Mario Luongo"
-        ]
+        ],
+        "id": 4,
+        "moduleEn": "Languages, communication and management",
+        "courseEn": "Technical German 1",
+        "contentsEn": [
+            {
+                "list": [
+                    "Foundations of scientific writing",
+                    "Record modules for reports",
+                    "Product presentation",
+                    "Writing tandem (E-Mail)"
+                ]
+            }
+        ],
+        "semesterEn": "Autumn",
+        "languageEn": "German",
+        "evaluationsEn": [
+            "Continuous assessment: written work, presentations"
+        ],
+        "objectivesEn": {
+            "list": [],
+            "intro": "The module ''Technical German'' is aimed at non-German-speaking students in the bilingual classes who are not yet at level B2 in the four language skills."
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-LACG-IT&courseId=B1C-ENG1-CEGIMT",
@@ -230,7 +389,38 @@
         ],
         "teachers": [
             "Santiago Cruz"
-        ]
+        ],
+        "id": 5,
+        "moduleEn": "Languages, communication and management",
+        "courseEn": "English 1",
+        "contentsEn": [
+            {
+                "list": [
+                    "Emphasis is placed on all four language skill development areas, with a balance of language structure (grammar) and practical usage. More precisely:",
+                    "enlarging and acquiring everyday vocabulary (Threshold level) as well as idiomatic expressions and colloquialisms;",
+                    "practising oral skills (listening and speaking) through systematic training and meaningful activities (such as tape listening, conversations, role playing, presentations, etc.)",
+                    "practising written skills for the industrial world (reading general and scientific/vocational texts, writing compositions, letters...)",
+                    "general approach to lifestyles and cultures of the English-speaking world."
+                ],
+                "intro": "Emphasis is placed on all four language skill development areas, with a balance of language structure (grammar) and practical usage. More precisely:"
+            },
+            {
+                "list": [],
+                "intro": "Focus is on authentic material (wide range of accents, unrestricted vocabulary and natural speech, etc.) and teamwork."
+            }
+        ],
+        "semesterEn": "Autumn",
+        "languageEn": "English",
+        "evaluationsEn": [
+            "Continuous assessment: written work, presentations, the choice of language to be followed and the level of the course (or possible exemption) are clarified during the first week of the course according to the indications of the teachers concerned."
+        ],
+        "objectivesEn": {
+            "list": [
+                "communicate effectively on general topics, both orally and written;",
+                "demonstrate a working knowledge of English in a wide range of situations and topic areas."
+            ],
+            "intro": "To master the four skills of listening, speaking, reading and writing at (pre)intermediate level, or even advanced, according to the learners' admission levels and grouping (streaming/tracking).At the end of the module students should be able to:"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-LACG-IT&courseId=B1C-COM1-CEGIMT",
@@ -274,7 +464,43 @@
         ],
         "teachers": [
             "Bruno Müller"
-        ]
+        ],
+        "id": 6,
+        "moduleEn": "Languages, communication and management",
+        "courseEn": "Communcation 1",
+        "contentsEn": [
+            {
+                "list": [
+                    "Definition of communication",
+                    "Communication impact and the importance of non-verbal communication",
+                    "The target audience: Who are we talking about?",
+                    "Define the objectives of the communication",
+                    "Manage speaking time",
+                    "Communication ambiguity, brakes and interference",
+                    "Advantages and disadvantages of visual aids",
+                    "Designing and using visual aids",
+                    "Body language and its importance in oral communication"
+                ],
+                "intro": "Public Speaking"
+            }
+        ],
+        "semesterEn": "Autumn",
+        "languageEn": "German",
+        "evaluationsEn": [
+            "Continuous assessment: written work, presentations"
+        ],
+        "objectivesEn": {
+            "list": [
+                "Understand the place and goals of professional communication",
+                "Improve communication and persuasion skills",
+                "Putting into practice the rules of communication in relation to non-verbal language and the relationship with others",
+                "Making and taking advantage of visual aids",
+                "Modifying a written document to make an oral presentation",
+                "Use and write different types of plans depending on the information to be conveyed",
+                "Use different types of introductions and conclusions depending on the information to be conveyed."
+            ],
+            "intro": "At the end of the course the student knows"
+        }
     },
     {
         "module": "Langues, communication et gestion",
@@ -316,7 +542,40 @@
         "teachers": [
             "Stéphane Rolle",
             "Marc Wohlhauser"
-        ]
+        ],
+        "id": 7,
+        "moduleEn": "Languages, communication and management",
+        "courseEn": "Methodology",
+        "contentsEn": [
+            {
+                "list": [
+                    "Wall",
+                    "Prince of Eisenhower",
+                    "Swot",
+                    "Learning Styles",
+                    "Problem solving",
+                    "WFD cause and effect diagram",
+                    "Motors and Brakes",
+                    "Brainstorming",
+                    "Morphological grid",
+                    "Multi-criteria decision table",
+                    "Tuckman"
+                ]
+            }
+        ],
+        "semesterEn": "Autumn",
+        "languageEn": "German",
+        "evaluationsEn": [
+            "Continuous assessment: written work, TP/evaluation of reports"
+        ],
+        "objectivesEn": {
+            "list": [
+                "Can use organizational tools such as: Mind-map, Pareto, risk matrix, multi-criteria table, Swot, DCE causal diagram, PV",
+                "Can describe a project in the form of objectives, tasks, planning, etc.",
+                "Knows principles such as: Eisenhower, learning styles, Tuckman..."
+            ],
+            "intro": "IT security part:"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-LACG-IT&courseId=B1C-PTIC-IT",
@@ -349,7 +608,30 @@
             "François Buntschu",
             "François Kilchoer",
             "Jean-Roland Schuler"
-        ]
+        ],
+        "id": 8,
+        "moduleEn": "Languages, communication and management",
+        "courseEn": "IT Project",
+        "contentsEn": [
+            {
+                "list": [],
+                "intro": "Group projects in the fields of robotics and computer and network security"
+            }
+        ],
+        "semesterEn": "Autumn",
+        "languageEn": "French",
+        "evaluationsEn": [
+            "Ongoing monitoring: TP/evaluation of reports, quality of project results, presentations, active participation in the group."
+        ],
+        "objectivesEn": {
+            "list": [
+                "will have researched and imagined innovative and creative solutions",
+                "will have researched and collected information useful for solving problems of various kinds, judging their usefulness and synthesizing them",
+                "will have learned to solve problems independently and to collaborate within a group",
+                "Communicate with the supervisor on the progress of the work and the final results."
+            ],
+            "intro": "At the end of the course, the student:"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-LACG-IT&courseId=B1C-TED2-CEGIMT",
@@ -380,7 +662,29 @@
         ],
         "teachers": [
             "Mario Luongo"
-        ]
+        ],
+        "id": 9,
+        "moduleEn": "Languages, communication and management",
+        "courseEn": "Technical German 2",
+        "contentsEn": [
+            {
+                "list": [
+                    "Describe figures and tables",
+                    "Technical lecture",
+                    "Job interview",
+                    "Language tandem"
+                ]
+            }
+        ],
+        "semesterEn": "Spring",
+        "languageEn": "German",
+        "evaluationsEn": [
+            "Continuous assessment: written work, presentations"
+        ],
+        "objectivesEn": {
+            "list": [],
+            "intro": "The module Technical German 2 builds on the module Technical German 1"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-LACG-IT&courseId=B1C-ENG2-CEGIMT",
@@ -412,7 +716,31 @@
         ],
         "teachers": [
             "Santiago Cruz"
-        ]
+        ],
+        "id": 10,
+        "moduleEn": "Languages, communication and management",
+        "courseEn": "English 2",
+        "contentsEn": [
+            {
+                "list": [
+                    "business English knowledge, such as writing appropriate application (cover) letters and CVs (résumés), according not only to normal writing practice in the USA and UK, but also to Swiss and international regulations (both academic and corporate)"
+                ],
+                "intro": "Continuation and development of all activities defined in Module 1, but in addition"
+            }
+        ],
+        "semesterEn": "Spring",
+        "languageEn": "English",
+        "evaluationsEn": [
+            "Continuous assessment: written work, presentations, the choice of language to be followed and the level of the course (or possible exemption) are clarified during the first week of the course according to the indications of the teachers concerned."
+        ],
+        "objectivesEn": {
+            "list": [
+                "read general and specialised (vocationally oriented) texts",
+                "give formal presentations and hold discussions in front of an audience",
+                "use the specific vocabulary and relevant information for studying abroad (project, diploma work, Master, etc.), not only in English-speaking countries, but also in any Swiss or foreign academic place where English is required for the application procedure and studies"
+            ],
+            "intro": "Basically, same objectives as stated for module 1, but more specifically, at the end of module 2, students should be able to"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-LACG-IT&courseId=B1C-COM2-CEGIMT",
@@ -453,7 +781,40 @@
         ],
         "teachers": [
             "Bruno Müller"
-        ]
+        ],
+        "id": 11,
+        "moduleEn": "Languages, communication and management",
+        "courseEn": "Communication 2",
+        "contentsEn": [
+            {
+                "list": [
+                    "Putting your thoughts in order",
+                    "The written presentation of a document",
+                    "Group work",
+                    "The cover letter and the job interview",
+                    "The company's information channels",
+                    "Advertising strategy"
+                ],
+                "intro": "Public Speaking"
+            }
+        ],
+        "semesterEn": "Spring",
+        "languageEn": "German",
+        "evaluationsEn": [
+            "Continuous assessment: written work, presentations"
+        ],
+        "objectivesEn": {
+            "list": [
+                "Submit a document written according to the rules of publishing.",
+                "Use different types of plans depending on the information to be conveyed",
+                "Apply different rules of good management of a workgroup",
+                "Become aware of the attitude to adopt during a job interview",
+                "Write the documents accompanying an application for employment",
+                "Knows the different types of information channels in the company with their advantages and disadvantages.",
+                "Know and understand the principles of an advertising approach"
+            ],
+            "intro": "At the end of the course the student knows"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-MATE-I&courseId=B1C-ALI1-CEGIMT",
@@ -493,7 +854,39 @@
         ],
         "teachers": [
             "Christophe Hebeisen"
-        ]
+        ],
+        "id": 12,
+        "moduleEn": "Mathematics",
+        "courseEn": "Linear Algebra 1",
+        "contentsEn": [
+            {
+                "list": [
+                    "Trigonometric circle and trigonometric functions",
+                    "Trigonometric equations and inequalities",
+                    "The different vector products and their applications",
+                    "Analytical equations of line, plane, circle and sphere"
+                ],
+                "intro": "Trigonometry, vector and analytical geometry"
+            },
+            {
+                "list": [
+                    "Representations of complex numbers (Cartesian, trigonometric, exponential form)",
+                    "The Gauss Plan",
+                    "Solving complex equations",
+                    "Applications in the Gauss plane and elementary complex functions"
+                ],
+                "intro": "Complex numbers"
+            }
+        ],
+        "semesterEn": "Autumn",
+        "languageEn": "German",
+        "evaluationsEn": [
+            "Continuous assessment: written work"
+        ],
+        "objectivesEn": {
+            "list": [],
+            "intro": "The course ''Linear Algebra 1'' is the complement of the course ''Analysis 1''. It deals with aspects of mathematics that can be called \"geometrical\" in a broad acceptance of the term. Starting from an intuitive geometric approach, more abstract notions such as vector and analytical geometry and computation in complex numbers will be developed. The construction of these abstract notions is done in support of numerous concrete problems, through which the student is led to simultaneously appropriate the theoretical bases as well as the methods and tools of calculation. (see also the objectives of the course ''Analysis 1'')."
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-MATE-I&courseId=B1C-ANA1-CEGIMT",
@@ -544,7 +937,50 @@
         ],
         "teachers": [
             "Micha Wasem"
-        ]
+        ],
+        "id": 13,
+        "moduleEn": "Mathematics",
+        "courseEn": "Calculus 1",
+        "contentsEn": [
+            {
+                "list": [
+                    "Functions (algebraic, trigonometric, transcendental, piecewise, ...)",
+                    "Composition of functions",
+                    "Reciprocal functions",
+                    "Intuitive definition of the limit and continuity of a function",
+                    "Properties"
+                ],
+                "intro": "Functions, limits and continuity"
+            },
+            {
+                "list": [
+                    "Slope of a tangent and definition of the derivative",
+                    "Derivation techniques (rules, chain derivation, implicit, ...)",
+                    "Extreme values of a continuous function, growth and concavity",
+                    "Optimization and related rates",
+                    "Differential and linear approximation",
+                    "Hospital Rule"
+                ],
+                "intro": "Derivatives and applications"
+            }
+        ],
+        "semesterEn": "Autumn",
+        "languageEn": "German",
+        "evaluationsEn": [
+            "Continuous assessment: written work",
+            "Exam: written (120 min.)"
+        ],
+        "objectivesEn": {
+            "list": [
+                "to interpret the mathematical representations usual in the technical fields studied",
+                "reproduce an adequate logical argument using the underlying mathematical concepts",
+                "apply the current methods of calculation appropriate to the solution of the problems posed, while making efficient use of the tools available, and in particular computer-aided calculation",
+                "to grasp the limits of application of algorithms and calculation software, to check the results and then to critically evaluate them, depending on the field of application",
+                "through experimentation, autonomously apply the different mathematical representations in order to draw relevant conclusions according to the context",
+                "to deepen later, through personal study, his knowledge related to the use of mathematics and possibly continue his studies"
+            ],
+            "intro": "This course offers each student the opportunity to acquire and develop mathematical skills. The teaching is aimed at the application of mathematics in technical branches, and is designed to enable the student to"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-MATE-I&courseId=B1C-ALI2-CEGIMT",
@@ -586,7 +1022,41 @@
         ],
         "teachers": [
             "Markus Geuss"
-        ]
+        ],
+        "id": 14,
+        "moduleEn": "Mathematics",
+        "courseEn": "Linear Algebra 2",
+        "contentsEn": [
+            {
+                "list": [
+                    "n-dimensional vectors, scalar product and standard",
+                    "Gaussian algorithm and reduction of systems of linear equations to the stepped shape",
+                    "Matrix representation of a system of linear equations and matrix calculation",
+                    "Discussion of under-determined systems of linear equations",
+                    "Least squares (multi-)linear regression"
+                ],
+                "intro": "Systems of linear equations and matrix calculation"
+            },
+            {
+                "list": [
+                    "Transformations of space (expansion, rotation, projections, symmetries and their compounds)",
+                    "Base change and passage matrix",
+                    "Own vectors and own values",
+                    "Diagonalization and applications"
+                ],
+                "intro": "Linear applications"
+            }
+        ],
+        "semesterEn": "Spring",
+        "languageEn": "German",
+        "evaluationsEn": [
+            "Continuous assessment: written work",
+            "Exam: written (120 min.)"
+        ],
+        "objectivesEn": {
+            "list": [],
+            "intro": "The course ''Linear Algebra 2'' complements the courses ''Analysis 1 and 2'' and ''Linear Algebra 1''. It deals with aspects of mathematics that can be called \"geometrical\" in a broad acceptance of the term. Starting from an intuitive geometric approach, more abstract notions such as matrix calculation, the notion of vector space, axis transformations, eigenvalues and eigenvectors will be developed. The construction of these abstract notions is done in support of numerous concrete problems, through which the student is led to simultaneously appropriate the theoretical bases as well as the methods and tools of calculation. (see also the objectives of the course ''Analysis 1 and 2'')."
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-MATE-I&courseId=B1C-ANA2-CEGIMT",
@@ -634,7 +1104,47 @@
         ],
         "teachers": [
             "Micha Wasem"
-        ]
+        ],
+        "id": 15,
+        "moduleEn": "Mathematics",
+        "courseEn": "Calculus 2",
+        "contentsEn": [
+            {
+                "list": [
+                    "Primitives of a function and indefinite integral",
+                    "Riemann sum and defined integral",
+                    "Fundamental theorem and integration techniques",
+                    "Introduction to differential equations",
+                    "Applications: calculation of areas in the plane, lengths, volumes and areas of revolution, concept of work.",
+                    "Improper integrals"
+                ],
+                "intro": "Complete"
+            },
+            {
+                "list": [
+                    "Consequences and their limits",
+                    "Definitions and convergence criteria for the series",
+                    "Taylor Series"
+                ],
+                "intro": "Infinite series"
+            }
+        ],
+        "semesterEn": "Spring",
+        "languageEn": "German",
+        "evaluationsEn": [
+            "Continuous assessment: written work"
+        ],
+        "objectivesEn": {
+            "list": [
+                "to interpret the mathematical representations usual in the technical fields studied",
+                "reproduce an adequate logical argument using the underlying mathematical concepts",
+                "apply the current methods of calculation appropriate to the solution of the problems posed, while making efficient use of the tools available, and in particular computer-aided calculation",
+                "to grasp the limits of application of algorithms and calculation software, to check the results and then to critically evaluate them, depending on the field of application",
+                "through experimentation, autonomously apply the different mathematical representations in order to draw relevant conclusions according to the context",
+                "to deepen later, through personal study, his knowledge related to the use of mathematics and possibly continue his studies"
+            ],
+            "intro": "This course offers each student the opportunity to acquire and develop mathematical skills. The teaching is aimed at the application of mathematics in technical branches, and is designed to enable the student to"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-TNUM-I&courseId=B1C-TNU1-IT",
@@ -697,7 +1207,62 @@
         ],
         "teachers": [
             "Michael Mäder"
-        ]
+        ],
+        "id": 16,
+        "moduleEn": "Discrete Electronics",
+        "courseEn": "Discrete Electronics 1",
+        "contentsEn": [
+            {
+                "list": [
+                    "Binary numbers and arithmetic operations",
+                    "Logical operations and functions.",
+                    "Analysis and synthesis of combinatorial functions.",
+                    "Introduction to VHDL for combinatorial circuits."
+                ],
+                "intro": "Block TN1: Numbering, Combinatorial Systems"
+            },
+            {
+                "list": [
+                    "Analysis of sequential systems",
+                    "Synthesis of synchronous sequential systems"
+                ],
+                "intro": "Block TN2: Simple synchronous sequential systems"
+            },
+            {
+                "list": [
+                    "Introduction to the laboratory and standard CMOS circuits",
+                    "Combinatorial circuit",
+                    "Physical synchronous circuit",
+                    "Technology, propagation time",
+                    "Use of an oscilloscope: measurement of voltages, time.",
+                    "Impedance matching: display of different voltages and signal propagation times."
+                ],
+                "intro": "Practical work:"
+            },
+            {
+                "list": [
+                    "Handout by teachers"
+                ],
+                "intro": "Course material"
+            }
+        ],
+        "semesterEn": "Autumn",
+        "languageEn": "German",
+        "evaluationsEn": [
+            "Continuous assessment: written work, TP/evaluation of reports"
+        ],
+        "objectivesEn": {
+            "list": [
+                "Design and implement simple synchronous combinatorial and sequential logic circuits (GATE).",
+                "Perform logical and arithmetic operations on variables and binary integer and fixed-point numbers.",
+                "Analyze, synthesize, simulate, assemble and test a combinatorial logic circuit.",
+                "Analyze, synthesize, simulate, realize and test a simple sequential synchronous circuit.",
+                "Use standard CMOS integrated circuits (gates, flip-flops, MUX, DEMUX, encoder).",
+                "Simulate and synthesize combinatorial circuits described in VHDL.",
+                "Use some measuring instruments (oscilloscope, function generator, ...)."
+            ],
+            "intro": "At the end of the course, the student knows"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-TNUM-I&courseId=B1C-TNU2-IT",
@@ -769,7 +1334,71 @@
         ],
         "teachers": [
             "Michael Mäder"
-        ]
+        ],
+        "id": 17,
+        "moduleEn": "Discrete Electronics",
+        "courseEn": "Discrete Electronics 2",
+        "contentsEn": [
+            {
+                "list": [
+                    "Analysis and synthesis of advanced sequential systems"
+                ],
+                "intro": "Block TN3: Advanced synchronous sequential systems"
+            },
+            {
+                "list": [
+                    "Analysis and Synthesis of Sequential Asynchronous Systems.",
+                    "CMOS logic circuit technology.",
+                    "Arithmetic systems"
+                ],
+                "intro": "Block TN4: Special systems and technology"
+            },
+            {
+                "list": [
+                    "Programmable circuits.",
+                    "Introduction to the VHDL description."
+                ],
+                "intro": "Block TN5: Programmable Systems"
+            },
+            {
+                "list": [
+                    "Synchronous circuit in simulation",
+                    "Physical synchronous circuit",
+                    "Programming an FPGA"
+                ],
+                "intro": "Practical work:"
+            },
+            {
+                "list": [
+                    "Carry out in a group.",
+                    "Complete management of a group project (sessions, specifications/operating instructions, design, production, testing, documentation and presentation)"
+                ],
+                "intro": "Integrated project:"
+            },
+            {
+                "list": [
+                    "Handout by teachers"
+                ],
+                "intro": "Course material"
+            }
+        ],
+        "semesterEn": "Spring",
+        "languageEn": "German",
+        "evaluationsEn": [
+            "Continuous assessment: written work, TP/evaluation of reports, integrated project"
+        ],
+        "objectivesEn": {
+            "list": [
+                "Designing and implementing digital electronics systems in the field of programmable logic systems modelled in VHDL.",
+                "Analyze, synthesize, simulate, realize and test an advanced synchronous sequential circuit.",
+                "Analyze, synthesize, simulate, realize and test an asynchronous sequential circuit.",
+                "Implement standard CMOS integrated circuits (gates, flip-flops, MUX, DEMUX, encoder, arithmetic) and interfaces with the outside world and understand the technology of these circuits.",
+                "Programming an FPGA logic circuit.",
+                "Use the main measuring instruments (oscilloscope, function generator, logic analyzer, ...).",
+                "Apply the basics of group project management."
+            ],
+            "intro": "At the end of the course, the student knows"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-TINF-IT&courseId=B1C-TIN1-IT",
@@ -817,7 +1446,46 @@
         ],
         "teachers": [
             "Rudolf Scheurer"
-        ]
+        ],
+        "id": 18,
+        "moduleEn": "Networking",
+        "courseEn": "Networking 1",
+        "contentsEn": [
+            {
+                "list": [
+                    "Network structure: topologies, architectures",
+                    "Internet/OSI Reference Model: definition, communication between layers, protocols, data units, services and service access point",
+                    "Physical layer: bit and moment rates, communication channel, physical media, transmission modes, multiplexing techniques",
+                    "Mechanisms and protocols for transmission error handling and flow control",
+                    "Information and coding: entropy and amount of information, channel coding, source coding"
+                ]
+            },
+            {
+                "list": [
+                    "Use of protocol analyzers",
+                    "LAN techniques (Ethernet)",
+                    "Asynchronous transmission (serial interface)",
+                    "Baseband transmission",
+                    "Source Coding (compression)",
+                    "Channel Coding (error checking with CRC)"
+                ],
+                "intro": "Practical work:"
+            }
+        ],
+        "semesterEn": "Autumn",
+        "languageEn": "German",
+        "evaluationsEn": [
+            "Continuous assessment: written work, TP/evaluation of reports"
+        ],
+        "objectivesEn": {
+            "list": [
+                "explain the Internet/OSI reference model and computer network architectures,",
+                "perform measurements on local area networks (LANs) and interpret them,",
+                "explain and apply the basic concepts of information theory and coding.",
+                "explain the techniques and protocols used to deal with transmission errors"
+            ],
+            "intro": "At the end of the course, the student is able to:"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-TINF-IT&courseId=B1C-TIN2-IT",
@@ -866,7 +1534,47 @@
         ],
         "teachers": [
             "Rudolf Scheurer"
-        ]
+        ],
+        "id": 19,
+        "moduleEn": "Networking",
+        "courseEn": "Networking 2",
+        "contentsEn": [
+            {
+                "list": [
+                    "Protocols and mechanisms of the data link, network and transport layers",
+                    "Local area network technologies: Ethernet/TCP/IP protocol stack",
+                    "Addressing: IPv4, classes, private addressing, introduction to IPv6",
+                    "Network elements: hubs, bridges, switches, routers, address servers, etc.",
+                    "Application protocols: e-mail, file transfer, virtual terminals, http, etc."
+                ]
+            },
+            {
+                "list": [
+                    "Data Layer Protocol (PPPoE)",
+                    "MAC/IP addressing (ARP)",
+                    "Internet: IP, ICMP, fragmentation",
+                    "Internet: UDP, TCP",
+                    "Internet applications: Telnet, HTTP, FTP, SMTP",
+                    "Address management with DHCP"
+                ],
+                "intro": "Practical work:"
+            }
+        ],
+        "semesterEn": "Spring",
+        "languageEn": "German",
+        "evaluationsEn": [
+            "Continuous assessment: written work, TP/evaluation of reports",
+            "Exam: oral (15 min.)"
+        ],
+        "objectivesEn": {
+            "list": [
+                "explain the channel access techniques and communication protocols of the data link layer",
+                "classify and present the main routing algorithms",
+                "list and explain the principles and protocols (network, transport and applications) implemented in computer networks",
+                "describe and apply the addressing structures used in computer networks"
+            ],
+            "intro": "At the end of the course, the student is able to:"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B2M-ALBG-I&courseId=B2C-ALG2-I",
@@ -903,7 +1611,35 @@
         ],
         "teachers": [
             "Frédéric Bapst"
-        ]
+        ],
+        "id": 20,
+        "moduleEn": "Algorithmic, Database, Software Engineering",
+        "courseEn": "Data Structures and Algorithms 2 & Labs",
+        "contentsEn": [
+            {
+                "list": [
+                    "Damped complexity, expected complexity.",
+                    "Arbre, parcours, heap, skew-heap, arbre de fouille (binary search tree), arbres-splay, treap, B-arbres.",
+                    "Disjoint sets, discrete simulation, string searching, editing distance, compression (Huffman, LempelZiv)",
+                    "Pseudo-pointers, generality, some clever algorithms, tests and programmer's tools"
+                ]
+            }
+        ],
+        "semesterEn": "Autumn",
+        "languageEn": "French",
+        "evaluationsEn": [
+            "Continuous assessment: written work, TP/evaluation of reports"
+        ],
+        "objectivesEn": {
+            "list": [
+                "Analyze a computer problem, and design an algorithm to solve it.",
+                "Write and use complex data structures and non-trivial algorithms.",
+                "Analyze the theoretical complexity of a program and verify it experimentally.",
+                "Thinking in an abstract way, distinguishing between specification and implementation, and using adequate formalisms (sketches, pseudo-code, ...).",
+                "Use a software development environment for an object-oriented language, and the programmer's tools (tests, profiler, diagnostic help, debugger...)."
+            ],
+            "intro": "The objectives are the same as those of the Algorithms and Data Structures 1 course, but they apply to a broader area of knowledge."
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B2M-ALBG-I&courseId=B2C-SGBD-I",
@@ -943,7 +1679,38 @@
         ],
         "teachers": [
             "Houda Chabbi"
-        ]
+        ],
+        "id": 21,
+        "moduleEn": "Algorithmic, Database, Software Engineering",
+        "courseEn": "Databases 1",
+        "contentsEn": [
+            {
+                "list": [
+                    "General introduction to DBMS.",
+                    "Functions of a database management system (logical and physical independence, data consistency, data sharability, non-redundancy of data, data security, efficiency of data access).",
+                    "Entity-association data model.",
+                    "Relational model and relational algebra",
+                    "Transition from the entity-association model to the relational model.",
+                    "Language for defining, manipulating and controlling SQL data.",
+                    "Extended SQL: trigger, stored procedure",
+                    "Dynamic SQL.",
+                    "Understanding and avoiding SQL injection"
+                ]
+            }
+        ],
+        "semesterEn": "Autumn",
+        "languageEn": "French",
+        "evaluationsEn": [
+            "Continuous assessment: written work, TP/evaluation of reports"
+        ],
+        "objectivesEn": {
+            "list": [
+                "Use a data model for the design and development of database applications.",
+                "Design and implement a relational database and represent its structure using an adequate formalism.",
+                "Master the different parts of SQL (LMD, LDD, LCD, trigger, stored procedures, cursors, dynamic SQL)"
+            ],
+            "intro": "At the end of the course, the student knows:"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B2M-ALBG-I&courseId=B2C-GELO-I",
@@ -980,7 +1747,34 @@
         "teachers": [
             "Pierre Kuonen",
             "Elena Mugellini"
-        ]
+        ],
+        "id": 22,
+        "moduleEn": "Algorithmic, Database, Software Engineering",
+        "courseEn": "Software Engineering 1",
+        "contentsEn": [
+            {
+                "list": [
+                    "Software Engineering Motivation",
+                    "Principle of object-oriented modeling",
+                    "Main UML diagrams",
+                    "Using a tool for modeling with UML"
+                ]
+            }
+        ],
+        "semesterEn": "Autumn",
+        "languageEn": "French",
+        "evaluationsEn": [
+            "Continuous assessment: TP/evaluation of reports, oral or written tests"
+        ],
+        "objectivesEn": {
+            "list": [
+                "Using a subset of UML",
+                "Using a tool for generating UML diagrams",
+                "Analyze, design and implement simple applications using an object-oriented and UML approach",
+                "Rigorous approach to an IT project"
+            ],
+            "intro": "At the end of the course the student knows:"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B2M-ALBG-I&courseId=B2C-ALG3-I",
@@ -1018,7 +1812,36 @@
         ],
         "teachers": [
             "Frédéric Bapst"
-        ]
+        ],
+        "id": 23,
+        "moduleEn": "Algorithmic, Database, Software Engineering",
+        "courseEn": "Data Structures and Algorithms 3 & Labs",
+        "contentsEn": [
+            {
+                "list": [
+                    "Graph, path, shortest path algorithms, flows and breaks in a network, connectivity, overlay tree, topological sorting. Some other concepts (click, matching, coloring, bipartite, condensation...).",
+                    "Bactracking, alpha/beta",
+                    "Computational geometry: primitives, direction of rotation, scanning technique, point in a polygon, polygon map, RangeTree, IntervalTree, duality, clustering.",
+                    "Code optimization. Java bytecode (concepts and tools)"
+                ]
+            }
+        ],
+        "semesterEn": "Spring",
+        "languageEn": "French",
+        "evaluationsEn": [
+            "Continuous assessment: written work, TP/evaluation of reports",
+            "Exam: written (120 min.)"
+        ],
+        "objectivesEn": {
+            "list": [
+                "Analyze a computer problem, and design an algorithm to solve it.",
+                "Write and use complex data structures and non-trivial algorithms.",
+                "Analyze the theoretical complexity of a program and verify it experimentally.",
+                "Think in an abstract way, distinguishing between specification and implementation, and using adequate formalisms (sketches, pseudo-code, ...).",
+                "Use a software development environment for an object-oriented language, and the programmer's tools (tests, profiler, diagnostic help, debugger...)."
+            ],
+            "intro": "The objectives are the same as those of the Algorithms and Data Structures 2 course, but they apply to a broader area of knowledge."
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B2M-MSCI-I&courseId=B2C-MAS1-I",
@@ -1063,7 +1886,44 @@
         ],
         "teachers": [
             "Roseline Nussbaumer"
-        ]
+        ],
+        "id": 24,
+        "moduleEn": "Mathematics and Sciences for Computer Scientists",
+        "courseEn": "Specialized Mathematics 1",
+        "contentsEn": [
+            {
+                "list": [
+                    "multivariate functions",
+                    "gradient",
+                    "optimization (under constraints)",
+                    "gradient descent",
+                    "..."
+                ],
+                "intro": "Machine learning"
+            },
+            {
+                "list": [
+                    "equity relationships",
+                    "generating sets",
+                    "linear recurrences",
+                    "first-order logic"
+                ],
+                "intro": "Discrete Mathematics"
+            }
+        ],
+        "semesterEn": "Autumn",
+        "languageEn": "French",
+        "evaluationsEn": [
+            "Continuous assessment: written work",
+            "Exam: written (120 min.)"
+        ],
+        "objectivesEn": {
+            "list": [
+                "some mathematical methods of machine learning.",
+                "some aspects of discrete mathematics"
+            ],
+            "intro": "At the end of the course the student will know"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B2M-MSCI-I&courseId=B2C-STAT-I",
@@ -1102,7 +1962,37 @@
         ],
         "teachers": [
             "Christophe Hebeisen"
-        ]
+        ],
+        "id": 25,
+        "moduleEn": "Mathematics and Sciences for Computer Scientists",
+        "courseEn": "Statistics",
+        "contentsEn": [
+            {
+                "list": [
+                    "Descriptive statistics: applications, random data processing, extraction of characteristic values (mean, variance, standard deviation, correlation coefficient), extraction by simulation.",
+                    "Probabilities: definitions, algebra of events, combinatorial analysis (permutations, arrangements, combinations, with or without repetitions), probability calculus (definitions, conditional proba.), random variables (definitions, discrete and continuous variables, distribution functions, mathematical expectation, variance), fundamental laws (binomial, geometric, Poisson's, exponential, hypergeometric, normal).",
+                    "Error calculation (confidence interval).",
+                    "Linear regression (matrix approach) and/or introduction to hypothesis testing."
+                ]
+            }
+        ],
+        "semesterEn": "Autumn",
+        "languageEn": "German",
+        "evaluationsEn": [
+            "Continuous assessment: written work"
+        ],
+        "objectivesEn": {
+            "list": [
+                "Understand and construct an empirical data distribution.",
+                "Calculate the main characteristics of a distribution.",
+                "Calculate a probability of occurrence of an event.",
+                "Determine the stochastic dependence of events and calculate the conditional probability of events.",
+                "Choose wisely the fundamental statistical law (binomial, geometric, Poisson's, exponential, hypergeometric, normal) that models a given random test.",
+                "Estimate the parameters of a statistical model.",
+                "Understand the role of inferential statistics."
+            ],
+            "intro": "At the end of the course, the student knows:"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B2M-MSCI-I&courseId=B2C-MAS2-I",
@@ -1160,7 +2050,57 @@
         ],
         "teachers": [
             "Rudolf Riedi"
-        ]
+        ],
+        "id": 26,
+        "moduleEn": "Mathematics and Sciences for Computer Scientists",
+        "courseEn": "Specialized Mathematics 2",
+        "contentsEn": [
+            {
+                "list": [
+                    "Introduction to number theory (modules, primality tests etc.).",
+                    "Basics of Shannon's information theory.",
+                    "Bases de la cryptographie moderne (' public key ', ' zero knowledge ' etc.)."
+                ],
+                "intro": "Discrete Mathematics"
+            },
+            {
+                "list": [
+                    "Technique for searching zeros of non-linear functions",
+                    "Simplex algorithm",
+                    "Unavoidable errors on the computer (floating point numbers ...)",
+                    "Polynomial, linear, spline and Bézier curve interpolations"
+                ],
+                "intro": "Digital Mathematics"
+            },
+            {
+                "list": [
+                    "notion of alphabet, language, operators on languages (union, intersection, concatenation, Kleene closure);",
+                    "deterministic finite state automata, regular languages, regular expressions;",
+                    "syntax diagrams, EBNF notation, derivation, terminal and non-terminal symbols;",
+                    "lexical/syntactic/semantic analysis, language interpretation, recursive descent algorithm, arithmetic expression analysis;",
+                    "formal program properties, program proofs, assertions, invariants, pre/post conditions, JML, propositional and temporal logic;",
+                    "Turing machines, undecidable problems, classes P, NP, and NP-complete."
+                ],
+                "intro": "Formal aspects of languages :"
+            }
+        ],
+        "semesterEn": "Spring",
+        "languageEn": "French",
+        "evaluationsEn": [
+            "Continuous assessment: written work"
+        ],
+        "objectivesEn": {
+            "list": [
+                "some methods of number theory, as well as several applications (e.g. in cryptography).",
+                "some standard methods of numerical mathematics",
+                "use finite automata, regular expressions, and syntactic diagrams to describe a language;",
+                "use the recursive descent algorithm to program a language analyzer;",
+                "manipulate assertions to verify properties in a program;",
+                "manipulate time logic (LTL) formulas",
+                "manipulate concepts related to the limits of computability (Turing machines, indecidability, NP-complete)."
+            ],
+            "intro": "Mathematical aspects: at the end of the course, the student will know"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B2M-MSCI-I&courseId=B2C-PYSM-I",
@@ -1243,7 +2183,81 @@
         ],
         "teachers": [
             "Ales Janka"
-        ]
+        ],
+        "id": 27,
+        "moduleEn": "Mathematics and Sciences for Computer Scientists",
+        "courseEn": "Physics SIAM",
+        "contentsEn": [
+            {
+                "list": [],
+                "intro": "Kinematics"
+            },
+            {
+                "list": [
+                    "Speed: constant; instantaneous - derivative; average; relative motion",
+                    "Acceleration: medium; instantaneous",
+                    "Free fall and oblique jet",
+                    "MRU and MRUA"
+                ]
+            },
+            {
+                "list": [
+                    "3 Newton's laws: law of inertia; force, mass, quantity of motion; action-reaction.",
+                    "Force Dynamics",
+                    "Gravitational force"
+                ],
+                "intro": "Forces:"
+            },
+            {
+                "list": [
+                    "Notion of work",
+                    "Power",
+                    "Mechanical energy: kinetic, potential"
+                ],
+                "intro": "Energy"
+            },
+            {
+                "list": [
+                    "Notion of electromagnetic wave",
+                    "Frequency",
+                    "Phase",
+                    "light, sound; speed of propagation"
+                ],
+                "intro": "Oscillations, waves"
+            },
+            {
+                "list": [
+                    "Ohm's law; power; basic circuits; parallel and series resistors"
+                ],
+                "intro": "Electricity (learning reminders)"
+            },
+            {
+                "list": [
+                    "Solids Statics",
+                    "Fluids: Archimedes, Pascal"
+                ],
+                "intro": "Possibly"
+            },
+            {
+                "list": [],
+                "intro": "Practical work:"
+            }
+        ],
+        "semesterEn": "Spring",
+        "languageEn": "French",
+        "evaluationsEn": [
+            "Continuous assessment: written work, TP/evaluation of reports, presentations"
+        ],
+        "objectivesEn": {
+            "list": [
+                "Explain the basic principles governing an observed physical phenomenon.",
+                "To measure physical quantities describing an observed physical phenomenon.",
+                "Develop a simple model of an observed physical system and calculate its parameters.",
+                "Is familiar with the basic principles of the phenomena of speed, acceleration, forces, energy; knows the concepts of electromagnetic waves.",
+                "Is able to explain and implement in simulations the studied physical laws."
+            ],
+            "intro": "At the end of the course, the student knows:"
+        }
     },
     {
         "module": "Projet et Gestion de projets",
@@ -1268,6 +2282,25 @@
         ],
         "teachers": [
             "Alfred Münger"
+        ],
+        "id": 28,
+        "moduleEn": "Project and Project Management",
+        "courseEn": "Business Management",
+        "contentsEn": [
+            {
+                "list": [
+                    "The company and its environment (general conditions, structure, functions, relationships, legal forms etc.)",
+                    "Financial aspects (overall objectives, investment, financing)",
+                    "Accounting aspects (bookkeeping, balance sheet, ER, analysis)",
+                    "Corporate management (management functions, HR)",
+                    "Management techniques (analysis methods, scenarios)"
+                ]
+            }
+        ],
+        "semesterEn": "Autumn",
+        "languageEn": "German",
+        "evaluationsEn": [
+            "Continuous assessment: written work, presentations"
         ]
     },
     {
@@ -1338,7 +2371,69 @@
         ],
         "teachers": [
             "Andreas Fischer"
-        ]
+        ],
+        "id": 29,
+        "moduleEn": "Project and Project Management",
+        "courseEn": "Project Management ICT",
+        "contentsEn": [
+            {
+                "list": [
+                    "Organizational Structure",
+                    "Stress Triangle",
+                    "Other basic concepts"
+                ],
+                "intro": "Project Management Fundamentals"
+            },
+            {
+                "list": [
+                    "5-phase approach - overview",
+                    "Phase 1 - strategy: why carry out this project, what to achieve in this project, choice among alternatives",
+                    "Phase 2 - tactics: how to carry out this project, detailed needs analysis, propose planning, draft specifications",
+                    "Phase 3 - Execution: overseeing the execution of a project across the product life cycle (see Section 3)",
+                    "Phase 4 - production start-up: actions before/during/after production start-up",
+                    "Phase 5 - Project Closure and Evaluation: What does it mean to close a project?"
+                ],
+                "intro": "Project lifecycle - customer-oriented vision"
+            },
+            {
+                "list": [
+                    "4 phase approach - overview: why 2 life cycles, phase sequencing (cascade), iterations on phases (agility)",
+                    "Phase 1 - analysis: what are the expected results, external view of the product, backlog approach of functionalities, listing of product properties and constraints",
+                    "Phase 2 - design: how to realize the functionalities, internal view of the product, architecture, use of modeling languages (BPMN, UML)",
+                    "Phase 3 - implementation",
+                    "Phase 4 - tests"
+                ],
+                "intro": "Product lifecycle - team-oriented development vision"
+            },
+            {
+                "list": [
+                    "Roles related to the project life cycle",
+                    "Roles related to the product life cycle: traditional roles, agile roles"
+                ],
+                "intro": "Roles in Project Management"
+            },
+            {
+                "list": [
+                    "Session management: agenda, pv",
+                    "Planning: Gantt, task estimation techniques, Work Breakdown Structure, WP approach, deliverables and milestones",
+                    "Reporting: writing techniques, document structure"
+                ],
+                "intro": "Tools"
+            }
+        ],
+        "semesterEn": "Spring",
+        "languageEn": "German",
+        "evaluationsEn": [
+            "Continuous assessment: written work, TP/evaluation of reports, presentations"
+        ],
+        "objectivesEn": {
+            "list": [
+                "understanding the life cycles of ICT projects",
+                "Integrate and collaborate in a team that uses waterfall and agile project management methodologies.",
+                "use traditional methodologies and tools used for the management of ICT projects"
+            ],
+            "intro": "At the end of the course the student is able to:"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B2M-GPEE-I&courseId=B2C-ALGP-I",
@@ -1379,7 +2474,37 @@
             "Frédéric Bapst",
             "Sandy Ingram",
             "François Kilchoer"
-        ]
+        ],
+        "id": 30,
+        "moduleEn": "Project and Project Management",
+        "courseEn": "Semester Project",
+        "contentsEn": [
+            {
+                "list": [],
+                "intro": "For the semester project, teachers form groups of 3-6 people. The project generally involves the computer production of a game (e.g. jass, dots-and-boxes, naval battle...). All groups follow a common specification, which allows the modules to be exchanged and the results to be compared (e.g. the strategies of the automatic player). The subject allows to develop the playful, creative and competitive aspects. In addition to the two weekly scheduled periods, there are at least two other work periods taken from the student's free time."
+            }
+        ],
+        "semesterEn": "Spring",
+        "languageEn": "French",
+        "evaluationsEn": [
+            "Ongoing monitoring: TP/evaluation of reports, presentations"
+        ],
+        "objectivesEn": {
+            "list": [
+                "Work in groups, organize working sessions",
+                "Joining a development team",
+                "Carry out a project involving algorithmic issues (and data structures)",
+                "Apply in a project concepts acquired in other courses (human-machine interface, concurrent programming, software engineering, teleinformatics, maths, communication, etc.).",
+                "Comply with a prescribed specification",
+                "Mastering and refining a modular cutting (PLC)",
+                "Recognize the difficulties of a full-scale project (several development teams)",
+                "Apply the notions of project management, and produce the corresponding documents (schedule, logbook, reports, technical documentation).",
+                "Write a project report",
+                "Meeting deadlines",
+                "Leverage version management tools",
+                "Testing an existing module"
+            ]
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B2M-SIAM-I&courseId=B2C-PRC1-I",
@@ -1418,7 +2543,37 @@
         ],
         "teachers": [
             "François Kilchoer"
-        ]
+        ],
+        "id": 31,
+        "moduleEn": "Information Systems and Mobile Applications",
+        "courseEn": "Concurrent Programming 1",
+        "contentsEn": [
+            {
+                "list": [
+                    "Introduction: first approach, definitions, characteristics and model.",
+                    "Mutual exclusion: problems, implementation (active waiting, locks).",
+                    "Synchronization: problems, realization (semaphores, monitors)",
+                    "Development languages/environments that support multiple processes: JR, Java, pthreads, etc."
+                ]
+            }
+        ],
+        "semesterEn": "Autumn",
+        "languageEn": "French",
+        "evaluationsEn": [
+            "Continuous assessment: written work, TP/evaluation of reports",
+            "Exam: oral (15 min.)"
+        ],
+        "objectivesEn": {
+            "list": [
+                "Analyze an IT problem and judge the need for a concurrent approach.",
+                "Design a competing program by identifying, based on objective criteria, the different processes and their interaction.",
+                "Make good use of synchronization tools between processes.",
+                "Apply rules to avoid interlocking and deprivation.",
+                "Represent a competing application using appropriate formalism.",
+                "To simulate the dynamic behaviour of a competing program using an appropriate formalism."
+            ],
+            "intro": "At the end of the course, the student knows:"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B2M-SIAM-I&courseId=B2C-DMOB-I",
@@ -1457,7 +2612,38 @@
         ],
         "teachers": [
             "Pascal Bruegger"
-        ]
+        ],
+        "id": 32,
+        "moduleEn": "Information Systems and Mobile Applications",
+        "courseEn": "Mobile Applications 1",
+        "contentsEn": [
+            {
+                "list": [],
+                "intro": "Through this course the student will become familiar with Android mobile concepts:"
+            },
+            {
+                "list": [
+                    "Study of the SDK and the components of the development platform.",
+                    "Study of the main components: Activity and service, Intent and broadcast receiver, Fragment, Persistence and Content Provider",
+                    "Programming of applications as TP and ED",
+                    "Application deployment on smartphone and tablet"
+                ],
+                "intro": "Major chapters:"
+            }
+        ],
+        "semesterEn": "Spring",
+        "languageEn": "French",
+        "evaluationsEn": [
+            "Continuous assessment: written work, TP/evaluation of reports"
+        ],
+        "objectivesEn": {
+            "list": [
+                "Understand the basic concepts of programming on mobile devices across the 2 main platforms Android and IOS.",
+                "Know the main components of the Android and IOS platforms",
+                "Know how to develop applications on both platforms and deploy them on smartphones and tablets."
+            ],
+            "intro": "The main objectives of the course are:"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B2M-SIAM-I&courseId=B2C-PRC2-I",
@@ -1497,7 +2683,38 @@
         ],
         "teachers": [
             "François Kilchoer"
-        ]
+        ],
+        "id": 33,
+        "moduleEn": "Information Systems and Mobile Applications",
+        "courseEn": "Concurrent Programming 2",
+        "contentsEn": [
+            {
+                "list": [
+                    "Introduction: first approach, definitions, characteristics and model.",
+                    "Communication: issues, implementation (asynchronous and synchronous messages, appointments, CPR and RMI)",
+                    "Development languages/environments that support distributed programming: JR, Java, etc.",
+                    "Distributed programming.",
+                    "Parallel programming."
+                ]
+            }
+        ],
+        "semesterEn": "Spring",
+        "languageEn": "French",
+        "evaluationsEn": [
+            "Continuous assessment: written work, TP/evaluation of reports"
+        ],
+        "objectivesEn": {
+            "list": [
+                "Design a distributed program by identifying, based on objective criteria, the different processes and their interaction.",
+                "Make good use of synchronization and communication tools between processes.",
+                "To implement, in different programming environments, the usual communication models.",
+                "Represent a competing application using appropriate formalism.",
+                "To simulate the dynamic behaviour of a competing program using an appropriate formalism.",
+                "Distribute an application over a computer network.",
+                "Parallelize an algorithm and implement it."
+            ],
+            "intro": "At the end of the course, the student knows:"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B2M-SIAM-I&courseId=B2C-DENG-I",
@@ -1557,7 +2774,59 @@
         ],
         "teachers": [
             "Elena Mugellini"
-        ]
+        ],
+        "id": 34,
+        "moduleEn": "Information Systems and Mobile Applications",
+        "courseEn": "Information Systems 1",
+        "contentsEn": [
+            {
+                "list": [
+                    "Document Model",
+                    "XML Language (syntax, tag)",
+                    "DTD (Document Type Definition)",
+                    "XML Schema - basic concepts"
+                ],
+                "intro": "Document modeling & representing"
+            },
+            {
+                "list": [
+                    "XPATH Language",
+                    "XSLT Language"
+                ],
+                "intro": "Transforming Document"
+            },
+            {
+                "list": [
+                    "CSS (Cascading Style Sheet)",
+                    "XSL-FO (Formating Object) Language",
+                    "SVG (Scalable Vector Graphics), SMIL (Synchronized Multimedia Integration Language), etc."
+                ],
+                "intro": "Document Rendering"
+            },
+            {
+                "list": [
+                    "DOM (Document Object Model) standard",
+                    "SAX (Simple API for XML) standard",
+                    "JDOM (Java API for DOM), JAXP (Java API for XML Processing)"
+                ],
+                "intro": "Programming Document"
+            }
+        ],
+        "semesterEn": "Spring",
+        "languageEn": "French",
+        "evaluationsEn": [
+            "Continuous assessment: TP/evaluation of reports, written and/or oral"
+        ],
+        "objectivesEn": {
+            "list": [
+                "Model, structure and represent information in XML",
+                "Transform, manipulate and merge XML structures and models for the exchange of information between applications",
+                "Formatting and rendering the information described in XML for user-oriented publishing on fixed and mobile media",
+                "Develop applications using syntax parsers (tree, event) and current object models for processing and storing XML data.",
+                "Determine the stakes of new technologies, the importance of standardization in the process of data exchange and in the editorial chain of the company."
+            ],
+            "intro": "At the end of the course, the student knows:"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B2M-MPOS-I&courseId=B2C-SYEX-I",
@@ -1596,7 +2865,37 @@
         ],
         "teachers": [
             "François Kilchoer"
-        ]
+        ],
+        "id": 35,
+        "moduleEn": "Embedded systems and operating systems",
+        "courseEn": "Operating Systems 1",
+        "contentsEn": [
+            {
+                "list": [
+                    "Memory, organization and management: main memory, virtual memory, management algorithms.",
+                    "Scheduling algorithms - basic mechanisms and examples",
+                    "Disk, organization and management: performance optimization, file management systems, Unix/NT examples, security, protection and backup.",
+                    "Input-output: basic mechanisms, Unix/NT examples.",
+                    "Computer tools/shell programming: sh and main variants; common commands (coreutils) + some tools for experts (grep, sed, awk, python)."
+                ]
+            }
+        ],
+        "semesterEn": "Autumn",
+        "languageEn": "French",
+        "evaluationsEn": [
+            "Continuous assessment: written work, TP/evaluation of reports"
+        ],
+        "objectivesEn": {
+            "list": [
+                "Explain the mechanisms implemented in a multi-tasking and multi-user operating system.",
+                "Explain the mechanisms for managing, sharing, and protecting common resources in common operating systems.",
+                "Configure the user environment of an operating system.",
+                "Install and configure an operating system application.",
+                "Programming the shell of an operating system.",
+                "Use the available programming tools of the operating system (pipes, filters, editors, compilers, debuggers, make, source-code control)."
+            ],
+            "intro": "At the end of the course, the student knows"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B2M-MPOS-I&courseId=B2C-SEM1-IT",
@@ -1641,7 +2940,44 @@
         ],
         "teachers": [
             "Jacques Supcik"
-        ]
+        ],
+        "id": 36,
+        "moduleEn": "Embedded systems and operating systems",
+        "courseEn": "Embedded-Systems 1",
+        "contentsEn": [
+            {
+                "list": [
+                    "The C language and its use (basic types and declarations, complex types, functions, pointers and function pointers)",
+                    "Object-oriented programming in C",
+                    "Development tools (generation, validation, documentation)",
+                    "ARM microprocessor instruction set (assembler)",
+                    "ARM microprocessor addressing modes",
+                    "Assembler Interface - C",
+                    "Floating point and integer processing",
+                    "Implementation of simple peripherals"
+                ],
+                "intro": "The course will cover the following topics:"
+            }
+        ],
+        "semesterEn": "Autumn",
+        "languageEn": "German",
+        "evaluationsEn": [
+            "Continuous assessment: written work, TP/evaluation of reports"
+        ],
+        "objectivesEn": {
+            "list": [
+                "Designing and programming sequential processing in C language",
+                "Designing and programming sequential processing in ARM assembly language",
+                "Implementing microprocessor systems",
+                "to use cross-development tools for embedded systems",
+                "to decompose the execution of an assembler instruction",
+                "to program processing structures in assembler",
+                "to program functions in C language by manipulating the basic elements of the language and managing dynamic memory allocations",
+                "to program the processing of peripherals by scanning in C",
+                "object-oriented programming in C language"
+            ],
+            "intro": "Overall, the Embedded Systems 1 course has the following objectives:"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B2M-MPOS-I&courseId=B2C-SEM2-I",
@@ -1690,7 +3026,48 @@
         ],
         "teachers": [
             "Jacques Supcik"
-        ]
+        ],
+        "id": 37,
+        "moduleEn": "Embedded systems and operating systems",
+        "courseEn": "Embedded-Systems 2",
+        "contentsEn": [
+            {
+                "list": [
+                    "General microprocessor architecture (Von Neuman, Harvard, SIMD, MIMD)",
+                    "Internal microprocessor architecture",
+                    "Programmation interruptive",
+                    "Interconnection of common peripherals",
+                    "Operating system kernel elements (thread, semaphore, etc.)",
+                    "Direct Access Memory (DMA)",
+                    "Hidden memories",
+                    "Memory Management Unit (MMU)"
+                ],
+                "intro": "The course will cover the following topics:"
+            }
+        ],
+        "semesterEn": "Spring",
+        "languageEn": "French",
+        "evaluationsEn": [
+            "Continuous assessment: written work, TP/evaluation of reports",
+            "Exam: oral (15 min.)"
+        ],
+        "objectivesEn": {
+            "list": [
+                "Describe and explain the general architectures of microprocessors",
+                "Designing and programming interrupt processing in assembler and C languages",
+                "Interfacing a microprocessor with various peripherals at the software level",
+                "Describe and explain the concepts of DMA, cache memory, virtual memory (MMU), pipelining, etc.",
+                "describe the general architecture of microprocessors",
+                "describe the internal architecture of the microprocessors",
+                "handle interruptions and exceptions",
+                "to interface a peripheral device to a microprocessor in interrupt mode and to program its basic functions",
+                "to program the basic elements of the kernel of an operating system",
+                "design and program a simple software driver",
+                "interfacing and/or configuring a direct memory access (DMA) mechanism between a device and a microprocessor",
+                "describe and configure the cache and memory management unit (MMU) controller"
+            ],
+            "intro": "Overall, the Embedded Systems 2 course has the following objectives:"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B3M-ITAP-I&courseId=B3C-SIPH-I",
@@ -1735,7 +3112,44 @@
         ],
         "teachers": [
             "Ales Janka"
-        ]
+        ],
+        "id": 38,
+        "moduleEn": "Applied Computer Science 1",
+        "courseEn": "Physics and Simulation",
+        "contentsEn": [
+            {
+                "list": [
+                    "kinematics",
+                    "amount of motion, force balance, energy conservation",
+                    "friction, contact",
+                    "mass-spring system, harmonic oscillator, wave equation",
+                    "barycentre, Archimedes' law"
+                ],
+                "intro": "Physics: a reminder of the concepts necessary for the modeling/simulation of the mechanics of rigid and deformable bodies:"
+            },
+            {
+                "list": [
+                    "explicit, implicit and symplectic numerical schemes for the Cauchy problem and their properties (stability, precision, energy conservation, ...)",
+                    "finite difference method",
+                    "iterative resolution of linear and non-linear systems"
+                ],
+                "intro": "Mathematics: numerical processing of ordinary differential equations:"
+            }
+        ],
+        "semesterEn": "Autumn",
+        "languageEn": "French",
+        "evaluationsEn": [
+            "Continuous assessment: written work, TP/evaluation of reports"
+        ],
+        "objectivesEn": {
+            "list": [
+                "model mathematically some problems of mechanics by synthesizing his knowledge of physics and mathematics,",
+                "solve these problems with an appropriate numerical algorithm,",
+                "several means of validating the results obtained,",
+                "evaluate the strengths and weaknesses of different models and resolution algorithms"
+            ],
+            "intro": "At the end of the course, the student will know:"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B3M-ITAP-I&courseId=B3C-CPRG-I",
@@ -1775,7 +3189,39 @@
         ],
         "teachers": [
             "François Kilchoer"
-        ]
+        ],
+        "id": 39,
+        "moduleEn": "Applied Computer Science 1",
+        "courseEn": "C/C++ Programming",
+        "contentsEn": [
+            {
+                "list": [
+                    "Java and C++: what differences",
+                    "The specificities of C",
+                    "Memory management: pointers, ...",
+                    "Data structures: Unions, structures, etc...",
+                    "Classes in C++.",
+                    "Methods and parameter passing",
+                    "The operators",
+                    "Les classes ''Templates''",
+                    "Multiple inheritance",
+                    "Compilation: Pre-processor, portability, conditional compilation, ...",
+                    "Development Tools"
+                ],
+                "intro": "Advanced programming in C/C++ (32 periods):"
+            }
+        ],
+        "semesterEn": "Autumn",
+        "languageEn": "French",
+        "evaluationsEn": [
+            "Continuous assessment: written work"
+        ],
+        "objectivesEn": {
+            "list": [
+                "Use C and C++ programming languages professionally."
+            ],
+            "intro": "At the end of the course the student knows:"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B3M-ITAP-I&courseId=B3C-MPRO-I",
@@ -1816,7 +3262,39 @@
         ],
         "teachers": [
             "Jean-Roland Schuler"
-        ]
+        ],
+        "id": 40,
+        "moduleEn": "Applied Computer Science 1",
+        "courseEn": "Microprocessor Systems",
+        "contentsEn": [
+            {
+                "list": [
+                    "InstructionSet of processors. gcc options related to theSet statement",
+                    "Organization of the cache memory. Programming in C to make optimal use of the cache memory",
+                    "Organization of pipelining. Programming in C for optimal use of pipelining",
+                    "Use of Valgrind to control-optimize a program.",
+                    "Intel processor architectures",
+                    "Reverse Engineering d'un executable",
+                    "Basics of GPU programming"
+                ]
+            }
+        ],
+        "semesterEn": "Spring",
+        "languageEn": "French",
+        "evaluationsEn": [
+            "Continuous assessment: written work"
+        ],
+        "objectivesEn": {
+            "list": [
+                "Explain the internal architecture of different processors.",
+                "programming techniques to make effective use of caches and pipelining.",
+                "Using the Valgrind tool to control, optimize a program",
+                "the basics of Intel processors for reverse-engineering",
+                "use the SIMD instructions of Intel processors to parallelise and optimise mathematical operations",
+                "the principles used in GPUs"
+            ],
+            "intro": "At the end of the course, the student knows"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B3M-ITAP-I&courseId=B3C-SECA-I",
@@ -1856,7 +3334,38 @@
         ],
         "teachers": [
             "Rudolf Scheurer"
-        ]
+        ],
+        "id": 41,
+        "moduleEn": "Applied Computer Science 1",
+        "courseEn": "Web Application Security",
+        "contentsEn": [
+            {
+                "list": [
+                    "Institutions and their activities (e.g. OWASP, WASC, SANS, MITRE)",
+                    "Fault list (e.g. OWASP Top10, WITHOUT Top25)",
+                    "Vulnerability database (e.g. CVE, CWE)",
+                    "Methods and metrics for risk assessment of vulnerabilities",
+                    "Integration of security in the development cycle (e.g. Threat Modeling)",
+                    "Study and treatment of the most frequent / dangerous faults (OWASP Top10)"
+                ]
+            }
+        ],
+        "semesterEn": "Spring",
+        "languageEn": "French",
+        "evaluationsEn": [
+            "Continuous assessment: written work, TP/evaluation of reports"
+        ],
+        "objectivesEn": {
+            "list": [
+                "is familiar with security principles and the context of web application security",
+                "knows the sources of information available (institutions, databases, Top10 lists, etc.)",
+                "understands the most common and/or dangerous vulnerabilities and knows the appropriate prevention measures",
+                "understands the security mechanisms in Web browsers",
+                "is able to integrate security aspects into the development cycle (e.g. threat modeling)",
+                "has acquired basic skills for exploiting vulnerabilities (' ethical hacking ' )"
+            ],
+            "intro": "At the end of the course, the student..."
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B3M-INFA-I&courseId=B3C-NSQL-I",
@@ -1899,7 +3408,41 @@
         "teachers": [
             "Houda Chabbi",
             "Benoit Perroud"
-        ]
+        ],
+        "id": 42,
+        "moduleEn": "Advanced Computer Science",
+        "courseEn": "Elective: NoSQL",
+        "contentsEn": [
+            {
+                "list": [
+                    "Scale-out vs. scale-in and BASE vs. ACID properties",
+                    "Distributed storage and distributed computing (HDFS, Map Reduce, TEZ, Spark...)",
+                    "Key-value warehouses with the following demo tool: Redis",
+                    "The document-oriented databases with as demonstration tool: MongoDB",
+                    "Column oriented databases with Cassandra as demonstration tool",
+                    "Graph oriented databases with Neo4j as a demonstration tool."
+                ],
+                "intro": "Since about ten years the NoSQL and bigdata movement has been growing more and more. Initially presented as the magical alternative to the immutable RDBMSs, the current trend is moderating these words to insist on the complementarity of all these technologies with each other. The future, in terms of data storage, will therefore take the form of \"polyglot persistence\". For designers and developers of new information systems, it is therefore a question of being able to set up an architecture that mixes all these technologies to good effect. To do this, this chapter proposes to understand what these technologies known as NoSQL are, to see their advantages and disadvantages in order to allow a judicious use of them. The following concepts will be discussed:"
+            },
+            {
+                "list": [],
+                "intro": "This course will be given by Houda Chabbi Drissi (HEIAFR) and Benoit Perroud (Verisign)."
+            }
+        ],
+        "semesterEn": "Autumn",
+        "languageEn": "French",
+        "evaluationsEn": [
+            "Continuous assessment: written work, TP/evaluation of reports, presentations"
+        ],
+        "objectivesEn": {
+            "list": [
+                "Knows the classification of NoSQL DBMSs",
+                "knows the typical use cases for the use of these technologies",
+                "is able to explain the different systems",
+                "has exercised through this chapter selected these technologies."
+            ],
+            "intro": "This course is an introduction to the world of NoSQL databases. At the end of this chapter choose the student:"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B3M-INFA-I&courseId=B3C-GDD3-I",
@@ -1947,7 +3490,46 @@
         "teachers": [
             "Maurizio Rigamonti",
             "Maurizio Caon"
-        ]
+        ],
+        "id": 43,
+        "moduleEn": "Advanced Computer Science",
+        "courseEn": "Elective: Game Design and Development",
+        "contentsEn": [
+            {
+                "list": [
+                    "Introduction to video game design: presentation and explanation of design methods, collaboration in a multidisciplinary team and interaction with end users.",
+                    "Presentation and explanations of formal elements, with focus on game mechanics (e.g. game rules, definition of actions, how to manage the user experience, etc.) and their balancing, interface structure and interaction modalities.",
+                    "Presentation of dramatic elements such as story, scenarios, characters and graphic styles.",
+                    "Introduction to 'Gamification' and 'Serious Game' practices.",
+                    "Introduction to starting a business, industry business models, and fundraising. Presentation of career opportunities in the field."
+                ],
+                "intro": "The course consists of a theoretical part and a practical part (directed work with a tutorial to learn how to use Unity and to make a video game prototype) The theoretical part includes :"
+            },
+            {
+                "list": [],
+                "intro": "The practical teaching will be divided into two parts: a tutorial on how Unity works and a project done by groups of 2 or 3 students. The project will consist in imagining, designing and developing a video game without constraints of the technologies to be used (students will have at their disposal several peripherals to be used for the development of the interface of the video game, for example: Microsoft Kinect, Wii remote controller, Oculus Rift et cetera)."
+            },
+            {
+                "list": [],
+                "intro": "This course will be given by : Maurizio Caon, Maurizio Rigamonti & Omar Abou Khaled"
+            }
+        ],
+        "semesterEn": "Spring",
+        "languageEn": "French",
+        "evaluationsEn": [
+            "Continuous assessment: written work, TP/evaluation of reports, presentations"
+        ],
+        "objectivesEn": {
+            "list": [
+                "Possesses knowledge of all the elements that make up the design of a game.",
+                "Will be able to generate autonomously the design of a complete game (applicable to all types of games, not only video games).",
+                "Will know how to develop a video game using Unity (one of the most popular platforms used for the creation of video games).",
+                "Will have an overall vision of the situation of video games in contemporary society, with fundamental notions for the application of these concepts in the very current practices of 'Gamification' and 'Serious Game'.",
+                "Will be familiar with the business aspects of modern entrepreneurship with the more common approaches to creating a start-up and will be aware of other career opportunities in the world of video games.",
+                "Strengthen his or her project planning and teamwork skills. Negotiation with partners and pitching his project will also be trained."
+            ],
+            "intro": "Playing helps man to naturally develop his intelligence, coordination skills, social skills and so on. For this reason, gaming has always been a crucial activity in human life and, with the technological revolution, this has become even more important: currently the number of hours per week spent playing video games exceeds 3 billion. For this reason, video games are now reputed among the most important forms of media and art with a global market that will exceed $81 billion in 2014 alone. Entering this world is not only a unique opportunity for the IT professionals of the future, but also an opportunity for personal growth as game design also develops artistic skills, sociology, psychology and general design. In addition, making a video game requires special and extremely advanced theoretical and technological knowledge. This course aims to train the basic skills necessary for the design and development of video games."
+        }
     },
     {
         "module": "Informatique avancée",
@@ -1986,7 +3568,39 @@
         "teachers": [
             "Omar Abou Khaled",
             "Jean Hennebert"
-        ]
+        ],
+        "id": 44,
+        "moduleEn": "Advanced Computer Science",
+        "courseEn": "Elective: IT startup bootcamp",
+        "contentsEn": [
+            {
+                "list": [
+                    "Innova&on and entrepreneurship / Developing an opportunity (ideation, pitch, etc.)",
+                    "Business concept & models in IT / Business model canvas / Lean canvas",
+                    "Lean startup development / Minimum Viable Products / IT product roadmap",
+                    "Ecosystème start-up incluant coaching, funding, etc.",
+                    "Intellectual property elements in an IT startup context",
+                    "Team (building your team, etc.) / market opportunity (go-to-market)",
+                    "Finance (broad lines) / Approaches to financing start-ups: crowdfunding- angels-VC, valuation, NPV"
+                ]
+            }
+        ],
+        "semesterEn": "Spring",
+        "languageEn": "French",
+        "evaluationsEn": [
+            "Continuous assessment: written work, TP/evaluation of reports, presentations"
+        ],
+        "objectivesEn": {
+            "list": [
+                "Understand the entrepreneurial process, the methods used to identify business opportunities",
+                "Appreciating the importance of innovation in the entrepreneurial process",
+                "Initiating the process of a new idea and organizing resources to launch projects or businesses",
+                "Understand the basic building blocks of a business plan",
+                "Present a simple business plan orally to potential partners and investors",
+                "Initiate the search for financing for the company"
+            ],
+            "intro": "At the end of this course the student is able to:"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B3M-INFA-I&courseId=B3C-MALE-I",
@@ -2055,7 +3669,67 @@
         "teachers": [
             "Jean Hennebert",
             "Elena Mugellini"
-        ]
+        ],
+        "id": 45,
+        "moduleEn": "Advanced Computer Science",
+        "courseEn": "Elective: Macine Learning",
+        "contentsEn": [
+            {
+                "list": [
+                    "Machine Learning is a branch of Artificial Intelligence that studies so-called \"machine learning\" algorithms. These algorithms are capable, using examples, of solving complex problems that would be difficult to solve using traditional approaches. Machine Learning is used today in several fields: prediction (stock market evolution, weather), classification (gesture recognition, speech recognition, image recognition), verification/detection (biometric authentication), data-mining (clustering on complex data)."
+                ],
+                "intro": "Introduction"
+            },
+            {
+                "list": [
+                    "The course combines theoretical and practical sessions. Particular importance is given to practical sessions, which will be done through guided classroom exercises (including the use of the KNIME and WEKA tools) and through mini-projects carried out in groups of 2-3 people."
+                ],
+                "intro": "Method"
+            },
+            {
+                "list": [
+                    "Definition of Machine Learning approaches: concepts of learning from data, supervised vs. unsupervised learning, feature extraction, hypothesis presentation.",
+                    "Definition of fields of use through concrete examples: prediction, classification, verification, clustering."
+                ],
+                "intro": "Contents -- Part I - Basic principles (20%) --"
+            },
+            {
+                "list": [
+                    "Introduction au framework KNIME",
+                    "Raw data to useful features: preprocessing algorithms and feature extraction",
+                    "Clustering",
+                    "Rules of association",
+                    "Approches Bayesiennes",
+                    "Decision trees",
+                    "Artificial neural networks",
+                    "Gaussian Mixtures"
+                ],
+                "intro": "Contents -- Part II - Machine learning algorithms: theory and application (60%) --"
+            },
+            {
+                "list": [
+                    "Time signal processing",
+                    "State-based modeling",
+                    "Heterogeneous data processing, merging principles"
+                ],
+                "intro": "Contents -- Part III - Advanced applications (20%) --"
+            }
+        ],
+        "semesterEn": "Spring",
+        "languageEn": "French",
+        "evaluationsEn": [
+            "Continuous assessment: written work, TP/evaluation of reports"
+        ],
+        "objectivesEn": {
+            "list": [
+                "identify cases of use of machine learning techniques",
+                "understand the concepts of learning from data, supervised vs. unsupervised learning, presenting hypotheses",
+                "to apply machine learning methods for clustering, classification, prediction tasks",
+                "understand the basic principles of machine learning algorithms, including clustering algorithms (k-Means), Bayesian approaches, Gaussian mixtures, Artificial Neuron Networks, decision trees, etc.",
+                "to use data mining frameworks such as Knime or Weka on concrete data"
+            ],
+            "intro": "Machine Learning Applications and Frameworks"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B3M-ITA2-I&courseId=B3C-SGBD-I",
@@ -2092,7 +3766,35 @@
         ],
         "teachers": [
             "Houda Chabbi"
-        ]
+        ],
+        "id": 46,
+        "moduleEn": "Advanced Computer Science 2",
+        "courseEn": "Databases 2",
+        "contentsEn": [
+            {
+                "list": [
+                    "Know advanced SQL LMD: advanced grouping functions / windowing etc.",
+                    "Functional dependency and standardization",
+                    "Physical organization: (access methods, indexing)",
+                    "Concurrency management: transaction, locking algorithm and stamping serialization levels.",
+                    "Fail-safe and data security: backup, logging recovery...",
+                    "Query optimization mechanism"
+                ]
+            }
+        ],
+        "semesterEn": "Autumn",
+        "languageEn": "French",
+        "evaluationsEn": [
+            "Continuous assessment: written work"
+        ],
+        "objectivesEn": {
+            "list": [
+                "Establish the transactional choices to be implemented.",
+                "Administering a database (control of indexing, optimization, normalization/denormalization)",
+                "Establish the list of components that are necessary to implement a database management policy (tuning, backups, logs...). It will have the theoretical basis to understand the approaches adopted by DBMS editors."
+            ],
+            "intro": "At the end of the course, the student knows:"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B3M-ITA2-I&courseId=B3C-GELO-I",
@@ -2127,7 +3829,33 @@
         ],
         "teachers": [
             "Pierre Kuonen"
-        ]
+        ],
+        "id": 47,
+        "moduleEn": "Advanced Computer Science 2",
+        "courseEn": "Software Engineering 2",
+        "contentsEn": [
+            {
+                "list": [
+                    "OO architecture principles: Component and deployment diagrams.",
+                    "Main design patterns",
+                    "Principles of 3-tier architecture",
+                    "Software components: Design and implementation of a client/server system."
+                ]
+            }
+        ],
+        "semesterEn": "Autumn",
+        "languageEn": "French",
+        "evaluationsEn": [
+            "Continuous assessment: TP/evaluation of reports, oral or written tests"
+        ],
+        "objectivesEn": {
+            "list": [
+                "Analyze, design, implement distributed computer applications: Component and deployment diagram.",
+                "Understand and apply design patterns",
+                "Analyze, design, realize 3-tier computer applications."
+            ],
+            "intro": "At the end of the course the student knows:"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B3M-ITA2-I&courseId=B3C-INHM-I",
@@ -2182,7 +3910,54 @@
         ],
         "teachers": [
             "Sandy Ingram"
-        ]
+        ],
+        "id": 48,
+        "moduleEn": "Advanced Computer Science 2",
+        "courseEn": "Human-Computer Interaction 2",
+        "contentsEn": [
+            {
+                "list": [
+                    "Principles and techniques of User-Centered Design (UCD).",
+                    "Main components of UX (user experience): utility, usability, and emotional impact.",
+                    "Application of classical engineering techniques in the development cycle of user interfaces and interactive systems.",
+                    "Methods and techniques specific to each phase of the development cycle (e.g. ideation, affinity diagram, personas, wireframe, interactive mockup).",
+                    "Ergonomic principles and criteria for the development of 'usable' interfaces.",
+                    "Introduction to 'Material Design' (its link with ergonomic criteria, its advantages over flat design).",
+                    "Introduction to the FLUX interface design pattern (specificities, advantages, links with other design patterns and MVC variants).",
+                    "Introduction to the REACT library (based on FLUX and used in the development of front-end user interfaces).",
+                    "Types of user interface evaluation (summative vs. formative, empirical vs. analytical, based on qualitative vs. quantitative data, rapid vs. rigorous).",
+                    "Standard questionnaires used in empirical evaluations.",
+                    "Adaptation of the evaluation to the development phase and context of the project."
+                ],
+                "intro": "Main content (technical and ergonomic aspects)"
+            },
+            {
+                "list": [
+                    "Introduction to the REDUX bookstore."
+                ],
+                "intro": "Optional content (depending on the chosen themes and the time available)"
+            }
+        ],
+        "semesterEn": "Autumn",
+        "languageEn": "French",
+        "evaluationsEn": [
+            "Continuous assessment: written work, TP/evaluation of reports"
+        ],
+        "objectivesEn": {
+            "list": [
+                "Explain the main components of UX (user experience).",
+                "Adopt an iterative and user-centred approach (UCD) to design user interfaces, interactive systems.",
+                "Apply ergonomic criteria right from the design phase.",
+                "Explain the different phases of the UX development cycle, the methods and techniques of each phase (e.g.: ideation, affinity diagram, personas, wireframe development, mockup).",
+                "Apply methods and techniques from each phase of the cycle in a proposed user interface development project, based on 'real' needs.",
+                "Explain the fundamental concepts of Material Design (its relation to ergonomic criteria, its difference with flat design or pure flat design).",
+                "Explain the basic concepts of the FLUX interface design pattern (its relationship to other MVC variants and other design patterns).",
+                "Realize a user interface prototype with the REACT library (based on FLUX) and a CSS library applying the 'Material Design'.",
+                "Select the appropriate type of interface assessment according to the project development phase and context.",
+                "Conduct analytical and/or empirical assessments at each iteration and stage of the development cycle."
+            ],
+            "intro": "At the end of the course, the student knows"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B3M-ITA2-I&courseId=B3C-TAP1-I",
@@ -2220,7 +3995,37 @@
         ],
         "teachers": [
             "Frédéric Bapst"
-        ]
+        ],
+        "id": 49,
+        "moduleEn": "Advanced Computer Science 2",
+        "courseEn": "Logic Programming",
+        "contentsEn": [
+            {
+                "list": [
+                    "Basics of Prolog: logic, predicates, logic variable, bypass tree.",
+                    "Incomplete data structures.",
+                    "Browse through report networks.",
+                    "Cutaneous problems, negative. Dynamic rules (assert).",
+                    "Definite Clause Grammars, use of Prolog for syntax analysis.",
+                    "Meta-programming. Notion of blackboard.",
+                    "Extension of the logic model by the expression of constraints.",
+                    "Propagation/distribution, constraint programming techniques, GnuProlog engine",
+                    "Programmation multi-langages"
+                ],
+                "intro": "Logic programming (64 periods):"
+            }
+        ],
+        "semesterEn": "Autumn",
+        "languageEn": "French",
+        "evaluationsEn": [
+            "Continuous assessment: written work, TP/evaluation of reports"
+        ],
+        "objectivesEn": {
+            "list": [
+                "Programming with a non-imperative language; in this case, the course aims to introduce the logic programming model, as well as constraint programming."
+            ],
+            "intro": "At the end of the course the student knows:"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B3M-PROS-I&courseId=B3C-PRI5-I",
@@ -2262,7 +4067,39 @@
         "teachers": [
             "Daniel Gachet",
             "Rudolf Scheurer"
-        ]
+        ],
+        "id": 50,
+        "moduleEn": "Semester Projects",
+        "courseEn": "Semester Project 5",
+        "contentsEn": [
+            {
+                "list": [
+                    "Individual or pair projects usually proposed by an external partner (industry, service company, academic institute)."
+                ]
+            },
+            {
+                "list": [],
+                "intro": "Pre-requisite: all successful 2nd year modules"
+            }
+        ],
+        "semesterEn": "Autumn",
+        "languageEn": "German",
+        "evaluationsEn": [
+            "Ongoing monitoring: TP/evaluation of reports, presentations"
+        ],
+        "objectivesEn": {
+            "list": [
+                "Transpose into practice and synthesize the theoretical concepts learned in different courses.",
+                "Work independently.",
+                "Defend the scientific and technical options of a project before a jury.",
+                "Planning a medium-sized project.",
+                "Elaborate and discuss specifications with a client.",
+                "Communicate effectively with the project leader on the progress of the work.",
+                "Write a project report.",
+                "Present a project orally."
+            ],
+            "intro": "At the end of the course, the student knows:"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B3M-PROS-I&courseId=B3C-PRO5-IT",
@@ -2304,7 +4141,39 @@
         "teachers": [
             "Omar Abou Khaled",
             "Elena Mugellini"
-        ]
+        ],
+        "id": 51,
+        "moduleEn": "Semester Projects",
+        "courseEn": "Semester Project 6",
+        "contentsEn": [
+            {
+                "list": [
+                    "Individual or two projects that last two blocks, usually proposed by an external partner (industry, service company, academic institute)."
+                ]
+            },
+            {
+                "list": [],
+                "intro": "Pre-requisite: all successful 2nd year modules"
+            }
+        ],
+        "semesterEn": "Spring",
+        "languageEn": "German",
+        "evaluationsEn": [
+            "Ongoing monitoring: TP/evaluation of reports, presentations"
+        ],
+        "objectivesEn": {
+            "list": [
+                "Transpose into practice and synthesize the theoretical concepts learned in different courses.",
+                "Work independently.",
+                "Defend the scientific and technical options of a project before a jury.",
+                "Planning a medium-sized project.",
+                "Elaborate and discuss specifications with a client.",
+                "Communicate effectively with the project leader on the progress of the work.",
+                "Write a project report.",
+                "Present a project orally."
+            ],
+            "intro": "At the end of the course, the student knows:"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B3M-SIAM-I&courseId=B3C-TAP2-I",
@@ -2339,7 +4208,34 @@
         ],
         "teachers": [
             "Rudolf Scheurer"
-        ]
+        ],
+        "id": 52,
+        "moduleEn": "Information Systems Specialization",
+        "courseEn": "Advanced Java Programming",
+        "contentsEn": [
+            {
+                "list": [
+                    "Basic mechanisms of network communication in Java: Sockets",
+                    "Interfacing to native software components: JNI (Java Native Interface)",
+                    "Abstraction layer for remote method invocation: RMI (Remote Method Incovation)",
+                    "Remote application management with JMX (Java Management eXtension)"
+                ],
+                "intro": "Advanced programming in Java:"
+            }
+        ],
+        "semesterEn": "Autumn",
+        "languageEn": "French",
+        "evaluationsEn": [
+            "Continuous assessment: written work, TP/evaluation of reports"
+        ],
+        "objectivesEn": {
+            "list": [
+                "Develop a Java application communicating through the computer network",
+                "Implement techniques for creating distributed/distributed applications.",
+                "Interfacing a Java application with software components written in C/C++."
+            ],
+            "intro": "At the end of the course the student knows:"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B3M-SIAM-I&courseId=B3C-SINF-I",
@@ -2389,7 +4285,47 @@
         "teachers": [
             "Omar Abou Khaled",
             "Elena Mugellini"
-        ]
+        ],
+        "id": 53,
+        "moduleEn": "Information Systems Specialization",
+        "courseEn": "Information Systems 2",
+        "contentsEn": [
+            {
+                "list": [
+                    "Information system (Definition, principles, models, installation and configuration, access protocols, comparison, etc.).",
+                    "Protocols and languages: HTTP, MIMETYPE, URI, XHTML, CSS.",
+                    "Advanced XML schema modeling techniques.",
+                    "Client/server architectures: 2-tier, 3-tier, n-tier and SOA (Services Oriented Architecture) architectures.",
+                    "Frameworks, application servers and development platforms.",
+                    "The .NET platform: introduction and operating principle.",
+                    "NET platform: ASP.NET and ADO.NET.",
+                    "The Java EE platform: introduction and operating principles.",
+                    "Java EE: servlets, JSP and JSF.",
+                    "Overview of the PhP and Ruby on Rails platforms.",
+                    "Web Services: principles and protocols (UDDI, WSDL, SOAP).",
+                    "XML databases.",
+                    "RIA (Rich Internet Application) - AJAX - declarative interfaces (XAML, XUL, etc.).",
+                    "Directories and meta-directories."
+                ]
+            }
+        ],
+        "semesterEn": "Autumn",
+        "languageEn": "French",
+        "evaluationsEn": [
+            "Continuous assessment: written work, TP/evaluation of reports, oral work"
+        ],
+        "objectivesEn": {
+            "list": [
+                "Install, configure and maintain an information server.",
+                "Analyse a concrete need for an information system and design the architecture based on existing models (N-tier, distributed, etc.).",
+                "Describe, compare and use common technologies for presenting information on fixed and mobile media.",
+                "Apply and choose the most relevant frameworks for the realization of an information portal.",
+                "Design an XML database and access it with an appropriate query language.",
+                "Assume a technical consultancy function for a client in the field of information systems.",
+                "Determine the stakes of new technologies, the importance of standardization in the process of data exchange and in the editorial chain of the company."
+            ],
+            "intro": "At the end of the course, the student knows:"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B3M-SIAM-I&courseId=B3C-ARSI-I",
@@ -2435,7 +4371,42 @@
             "Omar Abou Khaled",
             "Houda Chabbi",
             "Pierre Kuonen"
-        ]
+        ],
+        "id": 54,
+        "moduleEn": "Information Systems Specialization",
+        "courseEn": "Information Systems Architecture",
+        "contentsEn": [
+            {
+                "list": [],
+                "intro": "This is an Integrated Project (IP) carried out as a group to acquire IS project management skills and to train the following technical skills:"
+            },
+            {
+                "list": [
+                    "Apply the theory introduced in Software Engineering 1 and 2.",
+                    "Apply the theory introduced in Information Systems 1 and 2.",
+                    "Installation and use of a development framework (Java EE, .NET, etc.)",
+                    "Installation, configuration and use of an integrated development environment (VS 2008, Eclipse, etc.).",
+                    "Apply the theory introduced in database 1 and 2.",
+                    "Attack a DBMS through an application via JDBC or ADO.",
+                    "Establish the physical implementation of a database by justifying the chosen optimizations.",
+                    "Managing XML in a database.",
+                    "Use of management tools for: logging, testing, modeling, licensing, deployment and code documentation."
+                ]
+            }
+        ],
+        "semesterEn": "Spring",
+        "languageEn": "French",
+        "evaluationsEn": [
+            "Continuous assessment: written work, TP/evaluation of reports, presentations"
+        ],
+        "objectivesEn": {
+            "list": [
+                "Follow a methodology to design, model and implement an information system with n-tier architecture.",
+                "Establish a justified comparison of the technologies used to create an information system.",
+                "Clearly document the technical part, the installation part and the user manual of a product."
+            ],
+            "intro": "At the end of the course, the student knows:"
+        }
     },
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B3M-TRBA-I&courseId=B3C-TBAC-IT",
@@ -2472,6 +4443,33 @@
         "teachers": [
             "Sandy Ingram",
             "Houda Chabbi"
-        ]
+        ],
+        "id": 55,
+        "moduleEn": "Bachelor Thesis",
+        "courseEn": "Bachelor Thesis",
+        "contentsEn": [
+            {
+                "list": [
+                    "Individual projects relating to ICT professions validated by the college of experts. These projects are usually proposed by an external partner (industry, service company, university institute)."
+                ]
+            }
+        ],
+        "semesterEn": "Spring",
+        "languageEn": "English",
+        "evaluationsEn": [
+            "Continuous monitoring: Defined note on: development and implementation, documentation, presentation, etc."
+        ],
+        "objectivesEn": {
+            "list": [
+                "Transpose into practice and synthesize the theoretical concepts learned in different modules.",
+                "Work independently.",
+                "Defend the scientific and technical options of a project before a jury.",
+                "Planning a medium-sized project.",
+                "Elaborate and discuss specifications with a client.",
+                "Communicate effectively with the project leader on the progress of the work.",
+                "Accurately and comprehensively communicate the results obtained in a project report and in a defence before a panel of experts."
+            ],
+            "intro": "Develop the following skills: - personal skills - business skills - methodological skills"
+        }
     }
 ]
