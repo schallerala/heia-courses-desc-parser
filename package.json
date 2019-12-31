@@ -10,6 +10,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "md5": "^2.2.1",
     "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.15",
+    "@types/request": "^2.48.4",
+    "typescript": "^3.7.4",
+    "ts-node": "^8.5.4"
   }
 }
