@@ -49,7 +49,7 @@ const getFirstChild = (element: CheerioElement, typeName: string): CheerioElemen
 }
 const mapNodeValues = (index: number, element: CheerioElement) => getText(element);
 
-const skipCourses = ['Français 1', 'Français 2', 'Ethique appliquée', 'Applications Mobiles 2',
+const skipCourses = ['Français 1', 'Français 2', "Méthodologie et sécurité IT", 'Ethique appliquée', 'Applications Mobiles 2',
 'Développement mobile cross plate-forme', 'Architecture multi-tiers pour les app. mobiles',
 'Chapitre Spécialisé: Advanced Interf. & Wearables', "Chapitre spécialisé: Introduction au Traitement d'Images"];
 
