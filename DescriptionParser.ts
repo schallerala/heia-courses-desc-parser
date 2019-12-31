@@ -11,11 +11,11 @@ interface Objectives extends Section { }
 interface Content extends Section { }
 
 export interface Description {
-    url: string;
+    url?: string;
     module: string;
     course: string;
-    periods: number;
-    objectives: Objectives;
+    periods?: number;
+    objectives?: Objectives;
     contents: Array<Content>;
     credits: number;
     year: number;
@@ -49,7 +49,9 @@ const getFirstChild = (element: CheerioElement, typeName: string): CheerioElemen
 }
 const mapNodeValues = (index: number, element: CheerioElement) => getText(element);
 
-const skipCourses = ['Français 1', 'Français 2', 'Ethique appliquée', 'Applications Mobiles 2', 'Développement mobile cross plate-forme', 'Architecture multi-tiers pour les app. mobiles', 'Chapitre Spécialisé: Advanced Interf. & Wearables']
+const skipCourses = ['Français 1', 'Français 2', 'Ethique appliquée', 'Applications Mobiles 2',
+'Développement mobile cross plate-forme', 'Architecture multi-tiers pour les app. mobiles',
+'Chapitre Spécialisé: Advanced Interf. & Wearables', "Chapitre spécialisé: Introduction au Traitement d'Images"];
 
 export default class DescriptionParser {
 
