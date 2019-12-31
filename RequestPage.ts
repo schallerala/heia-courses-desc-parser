@@ -76,7 +76,7 @@ class RequestCacheManager {
     }
 
     private invalidCache (filename: string) {
-        fs.unlinkSync(filename);
+        fs.unlinkSync(this.getFilePath(filename));
     }
 
     public hasCachedFile (filename: string): boolean {

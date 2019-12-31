@@ -1,5 +1,6 @@
 import cheerio from 'cheerio';
 import { ParsedAnswer } from "./RequestPage";
+import { sortBy, compareNumber, compareString } from "./Sorter";
 
 interface Section {
     intro?: string;
@@ -9,19 +10,23 @@ interface Section {
 interface Objectives extends Section { }
 interface Content extends Section { }
 
-interface Description {
+export interface Description {
     url: string;
     module: string;
     course: string;
-    periods: string;
+    periods: number;
     objectives: Objectives;
     contents: Array<Content>;
-    credits: string;
-    year: string;
+    credits: number;
+    year: number;
     semester: string;
     language: string;
     evaluations: Array<string>;
     teachers: Array<string>;
+}
+
+export function DescriptionSorter (d1: Description, d2: Description): number {
+    return sortBy<Description>([ 'year', 'module', 'semester', 'course' ])(d1, d2);
 }
 
 export const Descriptions: Array<Description> = new Array();
@@ -44,6 +49,8 @@ const getFirstChild = (element: CheerioElement, typeName: string): CheerioElemen
 }
 const mapNodeValues = (index: number, element: CheerioElement) => getText(element);
 
+const skipCourses = ['Français 1', 'Français 2', 'Ethique appliquée', 'Applications Mobiles 2', 'Développement mobile cross plate-forme', 'Architecture multi-tiers pour les app. mobiles', 'Chapitre Spécialisé: Advanced Interf. & Wearables']
+
 export default class DescriptionParser {
 
     private readonly $: CheerioStatic;
@@ -51,8 +58,12 @@ export default class DescriptionParser {
     constructor(page: ParsedAnswer) {
         this.$ = page.$;
 
-        const module = this.getModule();
         const course = this.getCourse();
+
+        if (skipCourses.indexOf(course) >= 0)
+            return;
+
+        const module = this.getModule();
         const periods = this.getPeriods();
         const objectives = this.getObjectives();
         const contents = this.getContents();
@@ -81,8 +92,9 @@ export default class DescriptionParser {
         return this.getFirst("span.teaser");
     }
 
-    private getPeriods(): string {
-        return this.getFirst("h3.lessonplans-course-header");
+    private getPeriods(): number {
+        const text = this.getFirst("h3.lessonplans-course-header");
+        return parseInt(text.split(/ périodes/)[0]);
     }
 
     private getObjectives(): Objectives {
@@ -104,12 +116,14 @@ export default class DescriptionParser {
         }).get();
     }
 
-    private getCredits(): string {
-        return getText(this.$(".system-grid--lessonplansDetailHeader > div.system-grid-heading:contains(oids)").next().get(0));
+    private getCredits(): number {
+        const text = getText(this.$(".system-grid--lessonplansDetailHeader > div.system-grid-heading:contains(oids)").next().get(0));
+        return parseFloat(text);
     }
 
-    private getYear(): string {
-        return getText(this.$(".system-grid--lessonplansDetailHeader > div.system-grid-heading:contains(plan)").next().get(0));
+    private getYear(): number {
+        const text = getText(this.$(".system-grid--lessonplansDetailHeader > div.system-grid-heading:contains(plan)").next().get(0));
+        return parseInt(text.split(/\n/)[0]);
     }
 
     private getSemester(): string {
