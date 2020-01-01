@@ -141,7 +141,7 @@
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-INFO-IT&courseId=B1C-ALGO-IT",
         "module": "Informatique de base",
-        "course": "Algorithmique et structures de données 1",
+        "course": "Algorithmen",
         "grade": 5.3,
         "periods": 96,
         "objectives": {
@@ -1164,7 +1164,7 @@
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-TNUM-I&courseId=B1C-TNU1-IT",
         "module": "Technique numérique",
-        "course": "Technique numérique 1",
+        "course": "Numerische Technik 1",
         "grade": 5.1,
         "periods": 64,
         "objectives": {
@@ -1205,12 +1205,6 @@
                     "Technologie, temps de propagation",
                     "Utilisation d'un oscilloscope: mesure de tensions, de temps.",
                     "Adaptation d'impédance: visualisation des différentes tensions et des temps de propagation des signaux."
-                ]
-            },
-            {
-                "intro": "Support de cours",
-                "list": [
-                    "Polycopié par les professeurs"
                 ]
             }
         ],
@@ -1254,12 +1248,6 @@
                     "Impedance matching: display of different voltages and signal propagation times."
                 ],
                 "intro": "Practical work:"
-            },
-            {
-                "list": [
-                    "Handout by teachers"
-                ],
-                "intro": "Course material"
             }
         ],
         "semesterEn": "Autumn",
@@ -1283,7 +1271,7 @@
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-TNUM-I&courseId=B1C-TNU2-IT",
         "module": "Technique numérique",
-        "course": "Technique numérique 2",
+        "course": "Numerische Technik 2",
         "grade": 4.7,
         "periods": 52,
         "objectives": {
@@ -1329,16 +1317,9 @@
                 ]
             },
             {
-                "intro": "Projet intégré:",
+                "intro": "Projet intégré, effectué en groupe:",
                 "list": [
-                    "Effectuer en groupe.",
                     "Gestion complète d'un projet en groupe (séances, cahier des charges/mode d'emploi, conception, réalisation, tests, documentation et présentation)"
-                ]
-            },
-            {
-                "intro": "Support de cours",
-                "list": [
-                    "Polycopié par les professeurs"
                 ]
             }
         ],
@@ -1387,16 +1368,9 @@
             },
             {
                 "list": [
-                    "Carry out in a group.",
                     "Complete management of a group project (sessions, specifications/operating instructions, design, production, testing, documentation and presentation)"
                 ],
-                "intro": "Integrated project:"
-            },
-            {
-                "list": [
-                    "Handout by teachers"
-                ],
-                "intro": "Course material"
+                "intro": "Integrated project, carried out in a group:"
             }
         ],
         "semesterEn": "Spring",
@@ -2147,10 +2121,6 @@
         "contents": [
             {
                 "intro": "Cinématique",
-                "list": []
-            },
-            {
-                "intro": null,
                 "list": [
                     "Vitesse: constante; instantanée - dérivée; moyenne; mouvement relatif",
                     "Accélération: moyenne; instantanée",
@@ -2195,10 +2165,6 @@
                     "Statique des solides",
                     "Fluides: Archimède, Pascal"
                 ]
-            },
-            {
-                "intro": "Travaux pratiques:",
-                "list": []
             }
         ],
         "credits": 4,
@@ -2216,10 +2182,7 @@
         "courseEn": "Physics SIAM",
         "contentsEn": [
             {
-                "list": [],
-                "intro": "Kinematics"
-            },
-            {
+                "intro": "Kinematics",
                 "list": [
                     "Speed: constant; instantaneous - derivative; average; relative motion",
                     "Acceleration: medium; instantaneous",
@@ -2264,10 +2227,6 @@
                     "Fluids: Archimedes, Pascal"
                 ],
                 "intro": "Possibly"
-            },
-            {
-                "list": [],
-                "intro": "Practical work:"
             }
         ],
         "semesterEn": "Spring",
@@ -3676,14 +3635,14 @@
                 ]
             },
             {
-                "intro": "Contenu -- Partie I - Principes de bases (20%) --",
+                "intro": "Partie I - Principes de bases (20\\%)",
                 "list": [
                     "Définition des approches Machine Learning : concepts d'apprentissage à partir des données, d'apprentissage supervisé vs non supervisé, d'extraction de caractéristiques, de présentation d'hypothèses.",
                     "Définition des domaines d'utilisation à travers des exemples concrets : prédiction, classification, vérification, clustering."
                 ]
             },
             {
-                "intro": "Contenu -- Partie II - Algorithmes de Machine Learning: théorie et application (60%) --",
+                "intro": "Partie II - Algorithmes de Machine Learning: théorie et application (60\\%)",
                 "list": [
                     "Introduction au framework KNIME",
                     "Données brutes vers caractéristiques utiles: algorithmes de preprocessing et extraction de caractéristiques",
@@ -3696,7 +3655,7 @@
                 ]
             },
             {
-                "intro": "Contenu -- Partie III - Applications avancées (20%) --",
+                "intro": "Partie III - Applications avancées (20\\%)",
                 "list": [
                     "Traitement de signaux temporels",
                     "State-based modeling",
@@ -3736,7 +3695,7 @@
                     "Definition of Machine Learning approaches: concepts of learning from data, supervised vs. unsupervised learning, feature extraction, hypothesis presentation.",
                     "Definition of fields of use through concrete examples: prediction, classification, verification, clustering."
                 ],
-                "intro": "Contents -- Part I - Basic principles (20%) --"
+                "intro": "Part I - Basic principles (20\\%)"
             },
             {
                 "list": [
@@ -3749,7 +3708,7 @@
                     "Artificial neural networks",
                     "Gaussian Mixtures"
                 ],
-                "intro": "Contents -- Part II - Machine learning algorithms: theory and application (60%) --"
+                "intro": "Part II - Machine learning algorithms: theory and application (60\\%)"
             },
             {
                 "list": [
@@ -3757,7 +3716,7 @@
                     "State-based modeling",
                     "Heterogeneous data processing, merging principles"
                 ],
-                "intro": "Contents -- Part III - Advanced applications (20%) --"
+                "intro": "Part III - Advanced applications (20\\%)"
             }
         ],
         "semesterEn": "Spring",
