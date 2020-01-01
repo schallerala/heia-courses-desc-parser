@@ -1,5 +1,5 @@
-import PagesCrawler from "./PagesCrawler";
-import { Descriptions, DescriptionSorter } from "./DescriptionParser";
+import PagesCrawler from "./src/PagesCrawler";
+import { Descriptions, DescriptionSorter } from "./src/DescriptionParser";
 import fs from 'fs';
 import path from 'path';
 

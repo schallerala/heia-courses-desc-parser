@@ -1,4 +1,4 @@
-import { Description } from "./DescriptionParser";
+import { Description } from "./src/DescriptionParser";
 
 const out = require('./out.json') as Array<Description>;
 

@@ -1,4 +1,4 @@
-import { DescriptionSorter, Description } from "./DescriptionParser";
+import { DescriptionSorter, Description } from "./src/DescriptionParser";
 import fs from 'fs';
 import path from 'path';
 
