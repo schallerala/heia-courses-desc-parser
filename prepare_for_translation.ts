@@ -5,7 +5,7 @@ import path from 'path';
 
 const out = require('./out.json') as Array<Description>;
 
-interface TranslationDescription extends Description {
+export interface TranslationDescription extends Description {
     id: number;
     moduleEn: string;
     courseEn: string;

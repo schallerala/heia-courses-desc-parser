@@ -26,7 +26,7 @@ export interface Description {
 }
 
 export function DescriptionSorter (d1: Description, d2: Description): number {
-    return sortBy<Description>([ 'year', 'module', 'semester', 'course' ])(d1, d2);
+    return sortBy<Description>([ 'year', 'module', 'course', 'semester' ])(d1, d2);
 }
 
 export const Descriptions: Array<Description> = new Array();

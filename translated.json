@@ -2,7 +2,8 @@
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-INFO-IT&courseId=B1C-PROG-IT",
         "module": "Informatique de base",
-        "course": "Programmation",
+        "course": "Programmierung",
+        "grade": 5.1,
         "periods": 96,
         "objectives": {
             "intro": "A la fin du cours, l'étudiant sait",
@@ -141,6 +142,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-INFO-IT&courseId=B1C-ALGO-IT",
         "module": "Informatique de base",
         "course": "Algorithmique et structures de données 1",
+        "grade": 5.3,
         "periods": 96,
         "objectives": {
             "intro": "Ce module établit des bases solides de programmation. A la fin du module, l'étudiant sait:",
@@ -210,6 +212,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-INFO-IT&courseId=B1C-INHM-IT",
         "module": "Informatique de base",
         "course": "Interface Homme-Machine 1",
+        "grade": 5,
         "periods": 48,
         "objectives": {
             "intro": "A la fin du cours, l'étudiant est capable de :",
@@ -303,6 +306,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-LACG-IT&courseId=B1C-TED1-CEGIMT",
         "module": "Langues, communication et gestion",
         "course": "Allemand technique 1",
+        "grade": "Validated",
         "periods": 32,
         "objectives": {
             "intro": "Das Modul ''Technisches Deutsch'' richtet sich an nichtdeutschsprachige Studierende in den zweisprachigen Klassen, welche noch nicht auf einem Niveau B2 in den vier Sprachkompetenzen sind.",
@@ -356,6 +360,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-LACG-IT&courseId=B1C-ENG1-CEGIMT",
         "module": "Langues, communication et gestion",
         "course": "Anglais 1",
+        "grade": 5.9,
         "periods": 32,
         "objectives": {
             "intro": "To master the four skills of listening, speaking, reading and writing at (pre)intermediate level, or even advanced, according to the learners' admission levels and grouping (streaming/tracking).At the end of the module students should be able to:",
@@ -426,6 +431,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-LACG-IT&courseId=B1C-COM1-CEGIMT",
         "module": "Langues, communication et gestion",
         "course": "Communication 1",
+        "grade": 5.1,
         "periods": 32,
         "objectives": {
             "intro": "A la fin du cours l'étudiant sait",
@@ -505,6 +511,7 @@
     {
         "module": "Langues, communication et gestion",
         "course": "Methodologie",
+        "grade": 4.2,
         "periods": 32,
         "objectives": {
             "intro": "Partie sécurité IT:",
@@ -581,6 +588,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-LACG-IT&courseId=B1C-PTIC-IT",
         "module": "Langues, communication et gestion",
         "course": "Projet TIC",
+        "grade": "Validated",
         "periods": 24,
         "objectives": {
             "intro": "A la fin du cours, l'étudiant:",
@@ -637,6 +645,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-LACG-IT&courseId=B1C-TED2-CEGIMT",
         "module": "Langues, communication et gestion",
         "course": "Allemand technique 2",
+        "grade": "Validated",
         "periods": 32,
         "objectives": {
             "intro": "Das Modul Technisches Deutsch 2 baut auf dem Modul Technisches Deutsch 1 auf",
@@ -690,6 +699,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-LACG-IT&courseId=B1C-ENG2-CEGIMT",
         "module": "Langues, communication et gestion",
         "course": "Anglais 2",
+        "grade": 5.3,
         "periods": 32,
         "objectives": {
             "intro": "Basically, same objectives as stated for module 1, but more specifically, at the end of module 2, students should be able to",
@@ -746,6 +756,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-LACG-IT&courseId=B1C-COM2-CEGIMT",
         "module": "Langues, communication et gestion",
         "course": "Communication 2",
+        "grade": 5.3,
         "periods": 32,
         "objectives": {
             "intro": "A la fin du cours l'étudiant sait",
@@ -820,6 +831,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-MATE-I&courseId=B1C-ALI1-CEGIMT",
         "module": "Mathématiques",
         "course": "Algèbre linéaire 1",
+        "grade": 4.7,
         "periods": 64,
         "objectives": {
             "intro": "Le cours ''Algèbre linéaire 1'' constitue le complément du cours ''Analyse 1''. Y sont traîtés les aspects des mathématiques qu'on peut appeler ''géométriques'' dans une acceptation large du terme. En partant d'une approche géométrique intuitive, on développera des notions plus abstraites comme la géométrie vectorielle et analytique et le calcul dans l'ensemble des nombres complexes. La construction de ces notions abstraites se fait à l'appui de nombreux problèmes concrets, par lesquels l'étudiant est amené à s'approprier simultanément les bases théoriques ainsi que les méthodes et outils de calcul. (voir également les objectifs du cours ''Analyse 1'').",
@@ -892,6 +904,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-MATE-I&courseId=B1C-ANA1-CEGIMT",
         "module": "Mathématiques",
         "course": "Analyse 1",
+        "grade": 4.6,
         "periods": 64,
         "objectives": {
             "intro": "Ce cours offre à chaque étudiant-e l'opportunité d'acquérir et de développer des compétences mathématiques. L'enseignement vise l'application des mathématiques dans les branches techniques, et est conçu en vue de rendre l'étudiant-e capable de:",
@@ -986,6 +999,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-MATE-I&courseId=B1C-ALI2-CEGIMT",
         "module": "Mathématiques",
         "course": "Algèbre linéaire 2",
+        "grade": 4.8,
         "periods": 64,
         "objectives": {
             "intro": "Le cours ''Algèbre linéaire 2'' constitue le complément des cours ''Analyse 1 et 2'' et ''Algèbre linéaire 1''. Y sont traîtés les aspects des mathématiques qu'on peut appeler ''géométriques'' dans une acceptation large du terme. En partant d'une approche géométrique intuitive, on développera des notions plus abstraites comme le calcul matriciel, la notion d'espace vectoriel, les transformations d'axes, les valeurs et vecteurs propres. La construction de ces notions abstraites se fait à l'appui de nombreux problèmes concrets, par lesquels l'étudiant est amené à s'approprier simultanément les bases théoriques ainsi que les méthodes et outils de calcul. (voir également les objectifs du cours ''Analyse 1 et 2'').",
@@ -1062,6 +1076,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-MATE-I&courseId=B1C-ANA2-CEGIMT",
         "module": "Mathématiques",
         "course": "Analyse 2",
+        "grade": 4.9,
         "periods": 64,
         "objectives": {
             "intro": "Ce cours offre à chaque étudiant-e l'opportunité d'acquérir et de développer des compétences mathématiques. L'enseignement vise l'application des mathématiques dans les branches techniques, et est conçu en vue de rendre l'étudiant-e capable de:",
@@ -1150,6 +1165,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-TNUM-I&courseId=B1C-TNU1-IT",
         "module": "Technique numérique",
         "course": "Technique numérique 1",
+        "grade": 5.1,
         "periods": 64,
         "objectives": {
             "intro": "A la fin du cours, l'étudiant sait",
@@ -1268,6 +1284,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-TNUM-I&courseId=B1C-TNU2-IT",
         "module": "Technique numérique",
         "course": "Technique numérique 2",
+        "grade": 4.7,
         "periods": 52,
         "objectives": {
             "intro": "A la fin du cours, l'étudiant sait",
@@ -1404,6 +1421,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-TINF-IT&courseId=B1C-TIN1-IT",
         "module": "Téléinformatique",
         "course": "Téléinformatique 1",
+        "grade": 4.2,
         "periods": 64,
         "objectives": {
             "intro": "A la fin du cours, l'étudiant-e est en mesure :",
@@ -1491,6 +1509,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B1M-TINF-IT&courseId=B1C-TIN2-IT",
         "module": "Téléinformatique",
         "course": "Téléinformatique 2",
+        "grade": 5.4,
         "periods": 64,
         "objectives": {
             "intro": "A la fin du cours, l'étudiant-e est en mesure de:",
@@ -1580,6 +1599,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B2M-ALBG-I&courseId=B2C-ALG2-I",
         "module": "Algorithmique, Base de données, Génie Logiciel",
         "course": "Algorithmique et structures de données 2",
+        "grade": 5.5,
         "periods": 64,
         "objectives": {
             "intro": "Les objectifs sont les mêmes que ceux du cours algorithmique et structures de données 1, mais ils s'appliquent à un domaine de connaissances plus vaste.",
@@ -1645,6 +1665,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B2M-ALBG-I&courseId=B2C-SGBD-I",
         "module": "Algorithmique, Base de données, Génie Logiciel",
         "course": "Bases de données 1",
+        "grade": 5.3,
         "periods": 64,
         "objectives": {
             "intro": "A la fin du cours, l'étudiant sait:",
@@ -1716,6 +1737,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B2M-ALBG-I&courseId=B2C-GELO-I",
         "module": "Algorithmique, Base de données, Génie Logiciel",
         "course": "Génie Logiciel 1",
+        "grade": 5.4,
         "periods": 64,
         "objectives": {
             "intro": "A la fin du cours l'étudiant sait:",
@@ -1780,6 +1802,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B2M-ALBG-I&courseId=B2C-ALG3-I",
         "module": "Algorithmique, Base de données, Génie Logiciel",
         "course": "Algorithmique et structures de données 3",
+        "grade": 5,
         "periods": 96,
         "objectives": {
             "intro": "Les objectifs sont les mêmes que ceux du cours algorithmique et structures de données 2, mais ils s'appliquent à un domaine de connaissances plus vaste.",
@@ -1847,6 +1870,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B2M-MSCI-I&courseId=B2C-MAS1-I",
         "module": "Maths et Sciences pour Informaticiens",
         "course": "Mathématiques spécifiques 1",
+        "grade": 5,
         "periods": 64,
         "objectives": {
             "intro": "A la fin du cours l'étudiant-e connaît",
@@ -1929,6 +1953,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B2M-MSCI-I&courseId=B2C-STAT-I",
         "module": "Maths et Sciences pour Informaticiens",
         "course": "Statistiques",
+        "grade": 4.5,
         "periods": 32,
         "objectives": {
             "intro": "A la fin du cours, l'étudiant-e sait:",
@@ -1998,6 +2023,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B2M-MSCI-I&courseId=B2C-MAS2-I",
         "module": "Maths et Sciences pour Informaticiens",
         "course": "Mathématiques spécifiques 2",
+        "grade": 5.4,
         "periods": 64,
         "objectives": {
             "intro": "Aspects mathématiques: a la fin du cours, l'étudiant-e connaît",
@@ -2106,6 +2132,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B2M-MSCI-I&courseId=B2C-PYSM-I",
         "module": "Maths et Sciences pour Informaticiens",
         "course": "Physique SIAM",
+        "grade": 4.4,
         "periods": 64,
         "objectives": {
             "intro": "A la fin du cours, l'étudiant sait:",
@@ -2262,6 +2289,7 @@
     {
         "module": "Projet et Gestion de projets",
         "course": "Betriebswirtschaft",
+        "grade": 5.3,
         "contents": [
             {
                 "list": [
@@ -2306,7 +2334,8 @@
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B2M-GPEE-I&courseId=B2C-GPIT-IT",
         "module": "Projet et Gestion de projets",
-        "course": "Gestion de projets TIC",
+        "course": "Projektmanagement ICT",
+        "grade": 5.2,
         "periods": 24,
         "objectives": {
             "intro": "A la fin du cours l'étudiant est capable de:",
@@ -2438,7 +2467,8 @@
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B2M-GPEE-I&courseId=B2C-ALGP-I",
         "module": "Projet et Gestion de projets",
-        "course": "Projet de semestre (2ème année Info)",
+        "course": "Projet de semestre",
+        "grade": 5.7,
         "periods": 32,
         "objectives": {
             "intro": "",
@@ -2510,6 +2540,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B2M-SIAM-I&courseId=B2C-PRC1-I",
         "module": "Systèmes d'Information et Applications Mobiles",
         "course": "Programmation concurrente 1",
+        "grade": 5.2,
         "periods": 48,
         "objectives": {
             "intro": "A la fin du cours, l'étudiant sait:",
@@ -2579,6 +2610,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B2M-SIAM-I&courseId=B2C-DMOB-I",
         "module": "Systèmes d'Information et Applications Mobiles",
         "course": "Applications Mobiles 1",
+        "grade": 5.1,
         "periods": 64,
         "objectives": {
             "intro": "Les objectifs principaux du cours sont:",
@@ -2649,6 +2681,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B2M-SIAM-I&courseId=B2C-PRC2-I",
         "module": "Systèmes d'Information et Applications Mobiles",
         "course": "Programmation concurrente 2",
+        "grade": 5.1,
         "periods": 60,
         "objectives": {
             "intro": "A la fin du cours, l'étudiant sait:",
@@ -2719,7 +2752,8 @@
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B2M-SIAM-I&courseId=B2C-DENG-I",
         "module": "Systèmes d'Information et Applications Mobiles",
-        "course": "Systèmes d'information - I",
+        "course": "Systèmes d'information 1",
+        "grade": 5,
         "periods": 32,
         "objectives": {
             "intro": "A la fin du cours, l'étudiant sait:",
@@ -2832,6 +2866,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B2M-MPOS-I&courseId=B2C-SYEX-I",
         "module": "Systèmes embarqués et systèmes d'exploitation",
         "course": "Système d'exploitation 1",
+        "grade": 5.1,
         "periods": 40,
         "objectives": {
             "intro": "A la fin du cours, l'étudiant sait",
@@ -2900,7 +2935,8 @@
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B2M-MPOS-I&courseId=B2C-SEM1-IT",
         "module": "Systèmes embarqués et systèmes d'exploitation",
-        "course": "Systèmes Embarqués 1",
+        "course": "Embedded-Systems 1",
+        "grade": 5.1,
         "periods": 64,
         "objectives": {
             "intro": "De façon globale le cours de Systèmes Embarqués 1 vise les objectifs suivants:",
@@ -2983,6 +3019,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B2M-MPOS-I&courseId=B2C-SEM2-I",
         "module": "Systèmes embarqués et systèmes d'exploitation",
         "course": "Systèmes Embarqués 2",
+        "grade": 5,
         "periods": 64,
         "objectives": {
             "intro": "De façon globale le cours de systèmes embarqués 2 vise les objectifs suivants:",
@@ -3073,6 +3110,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B3M-ITAP-I&courseId=B3C-SIPH-I",
         "module": "Informatique appliquée",
         "course": "Physique et simulation",
+        "grade": 5.4,
         "periods": 64,
         "objectives": {
             "intro": "A la fin du cours, l'étudiant saura:",
@@ -3155,6 +3193,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B3M-ITAP-I&courseId=B3C-CPRG-I",
         "module": "Informatique appliquée",
         "course": "Programmation C/C++",
+        "grade": 4.1,
         "periods": 68,
         "objectives": {
             "intro": "A la fin du cours l'étudiant sait:",
@@ -3227,6 +3266,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B3M-ITAP-I&courseId=B3C-MPRO-I",
         "module": "Informatique appliquée",
         "course": "Microprocesseurs",
+        "grade": 3.8,
         "periods": 32,
         "objectives": {
             "intro": "A la fin du cours, l'étudiant sait",
@@ -3299,7 +3339,8 @@
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B3M-ITAP-I&courseId=B3C-SECA-I",
         "module": "Informatique appliquée",
-        "course": "Sécurité des applications Web",
+        "course": "Sécurité des applications",
+        "grade": 4.6,
         "periods": 32,
         "objectives": {
             "intro": "A la fin du cours, l'étudiant-e ...",
@@ -3371,6 +3412,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B3M-INFA-I&courseId=B3C-NSQL-I",
         "module": "Informatique avancée",
         "course": "Chapitre spécialisé: Introduction au monde NoSQL",
+        "grade": 5.1,
         "periods": 30,
         "objectives": {
             "intro": "Ce cours est une introduction au monde des bases de données dites NoSQL. A la fin de ce chapitre choisi l'étudiant:",
@@ -3448,6 +3490,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B3M-INFA-I&courseId=B3C-GDD3-I",
         "module": "Informatique avancée",
         "course": "Chapitre spécialisé: Game Design and Development",
+        "grade": 5.5,
         "periods": 32,
         "objectives": {
             "intro": "Le jeu aide l'homme à développer naturellement son intelligence, ses habilités de coordination, ses compétences sociales et ainsi de suite. Pour cette raison, le jeu a toujours constitué une activité cruciale dans la vie de l'homme et, avec la révolution technologique, cela est devenu encore plus important : actuellement le nombre d'heures par semaine passées en jouant aux jeux-vidéo dépasse les 3 milliards. Pour cette raison, les jeux-vidéo sont désormais réputés parmi les formes plus importantes de media et art avec un marché global qui a dépassé les 81 milliards de dollars seulement en 2014. Entrer dans ce monde est non seulement une possibilité unique pour les professionnels en informatique du futur, mais aussi une opportunité de croissance personnelle car le game design développe aussi des compétences artistiques, en sociologie, en psychologie et en design général. En plus, réaliser un jeu-vidéo et demande des connaissances théoriques et technologiques particulières et extrêmement avancées. Ce cours vise donc à former les compétences de base nécessaires pour le design et développement de jeux-vidéo.",
@@ -3534,6 +3577,7 @@
     {
         "module": "Informatique avancée",
         "course": "Chapitre spécialisé: IT startup bootcamp",
+        "grade": 5.5,
         "objectives": {
             "intro": "À la fin de ce cours l'étudiant est capable de:",
             "list": [
@@ -3606,6 +3650,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B3M-INFA-I&courseId=B3C-MALE-I",
         "module": "Informatique avancée",
         "course": "Chapitre spécialisé: Machine Learning Applications",
+        "grade": 4.9,
         "periods": 24,
         "objectives": {
             "intro": "Machine Learning Applications and Frameworks",
@@ -3735,6 +3780,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B3M-ITA2-I&courseId=B3C-SGBD-I",
         "module": "Informatique avancée 2",
         "course": "Bases de données 2",
+        "grade": 4.6,
         "periods": 32,
         "objectives": {
             "intro": "A la fin du cours, l'étudiant sait:",
@@ -3800,6 +3846,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B3M-ITA2-I&courseId=B3C-GELO-I",
         "module": "Informatique avancée 2",
         "course": "Génie logiciel 2",
+        "grade": 5,
         "periods": 64,
         "objectives": {
             "intro": "A la fin du cours l'étudiant sait:",
@@ -3860,7 +3907,8 @@
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B3M-ITA2-I&courseId=B3C-INHM-I",
         "module": "Informatique avancée 2",
-        "course": "Interface homme-machine 2",
+        "course": "Interfaces homme-machine 2",
+        "grade": 5.1,
         "periods": 24,
         "objectives": {
             "intro": "A la fin du cours, l'étudiant sait",
@@ -3963,6 +4011,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B3M-ITA2-I&courseId=B3C-TAP1-I",
         "module": "Informatique avancée 2",
         "course": "Programmation logique",
+        "grade": 5.4,
         "periods": 64,
         "objectives": {
             "intro": "A la fin du cours l'étudiant sait:",
@@ -4030,7 +4079,8 @@
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B3M-PROS-I&courseId=B3C-PRI5-I",
         "module": "Projets de semestre",
-        "course": "Projet de semestre 5",
+        "course": "Semesterprojekt 5",
+        "grade": 4.8,
         "periods": 32,
         "objectives": {
             "intro": "A la fin du cours, l'étudiant sait:",
@@ -4104,7 +4154,8 @@
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B3M-PROS-I&courseId=B3C-PRO5-IT",
         "module": "Projets de semestre",
-        "course": "Projet de semestre 6",
+        "course": "Semesterprojekt 6",
+        "grade": 5.3,
         "periods": 60,
         "objectives": {
             "intro": "A la fin du cours, l'étudiant sait:",
@@ -4179,6 +4230,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B3M-SIAM-I&courseId=B3C-TAP2-I",
         "module": "Spécialisation SI ou AM",
         "course": "Programmation avancée Java",
+        "grade": 5,
         "periods": 32,
         "objectives": {
             "intro": "A la fin du cours l'étudiant sait:",
@@ -4240,7 +4292,8 @@
     {
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B3M-SIAM-I&courseId=B3C-SINF-I",
         "module": "Spécialisation SI ou AM",
-        "course": "Systèmes d'information - II",
+        "course": "Systèmes d'information 2",
+        "grade": 5.8,
         "periods": 64,
         "objectives": {
             "intro": "A la fin du cours, l'étudiant sait:",
@@ -4331,6 +4384,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B3M-SIAM-I&courseId=B3C-ARSI-I",
         "module": "Spécialisation SI ou AM",
         "course": "Architecture des systèmes d'information",
+        "grade": 5.2,
         "periods": 128,
         "objectives": {
             "intro": "A la fin du cours, l'étudiant sait:",
@@ -4412,6 +4466,7 @@
         "url": "https://www.heia-fr.ch/fr/formation/bachelor/informatique-et-systemes-de-communication/programme-de-formation//?cursus=bilingue&programId=INFO&optionId=&moduleId=B3M-TRBA-I&courseId=B3C-TBAC-IT",
         "module": "Travail de bachelor",
         "course": "Travail de Bachelor",
+        "grade": 4.9,
         "periods": 0,
         "objectives": {
             "intro": "Développer les compétences suivantes: - compétences personnelles - compétences métiers - compétences méthodologiques",
