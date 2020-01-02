@@ -44,7 +44,7 @@ function formatCourse (c: TranslatedDescription): string {
         `% id: ${c.id}`,
         (typeof c.grade == 'number'
             ? `\\gradedCourse{${c.courseEn}}{${c.credits}}{${c.grade}}{${c.course}}{${c.languageEn.toLocaleLowerCase()}}{${c.teachers.join(', ')}}`
-            : `\\validatedCourse{${c.courseEn}}{${c.credits}}{${c.course}}{${c.languageEn.toLocaleLowerCase()}}{${c.teachers.join(', ')}`),
+            : `\\validatedCourse{${c.courseEn}}{${c.credits}}{${c.course}}{${c.languageEn.toLocaleLowerCase()}}{${c.teachers.join(', ')}}`),
         ...c.contentsEn.map(content => {
             const contentStrs = [
                 content.intro
